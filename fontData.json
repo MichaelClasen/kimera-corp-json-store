@@ -21,61 +21,61 @@
     ]
   },
   {
-    "name": "Melange Neue",
+    "name": "Melange",
     "fontDir": "/fonts/Melange/",
     "fontFamilies": [
       {
-        "path": "Hairline/Melange-Hairline",
+        "path": "Hairline/MelangeNeue-Hairline",
         "weight": 100,
         "weightReadable": "Hairline"
       },
       {
-        "path": "Thin/Melange-Thin",
+        "path": "Thin/MelangeNeue-Thin",
         "weight": 150,
         "weightReadable": "Thin"
       },
       {
-        "path": "Light/Melange-Light",
+        "path": "Light/MelangeNeue-Light",
         "weight": 200,
         "weightReadable": "Light"
       },
       {
-        "path": "Book/Melange-Book",
+        "path": "Book/MelangeNeue-Book",
         "weight": 300,
         "weightReadable": "Book"
       },
       {
-        "path": "Regular/Melange-Regular",
+        "path": "Regular/MelangeNeue-Regular",
         "weight": 400,
         "weightReadable": "Regular"
       },
       {
-        "path": "Medium/Melange-Medium",
+        "path": "Medium/MelangeNeue-Medium",
         "weight": 450,
         "weightReadable": "Medium"
       },
       {
-        "path": "SemiBold/Melange-SemiBold",
+        "path": "SemiBold/MelangeNeue-SemiBold",
         "weight": 500,
         "weightReadable": "SemiBold"
       },
       {
-        "path": "Bold/Melange-Bold",
+        "path": "Bold/MelangeNeue-Bold",
         "weight": 600,
         "weightReadable": "Bold"
       },
       {
-        "path": "ExtraBold/Melange-ExtraBold",
+        "path": "ExtraBold/MelangeNeue-ExtraBold",
         "weight": 700,
         "weightReadable": "ExtraBold"
       },
       {
-        "path": "Black/Melange-Black",
+        "path": "Black/MelangeNeue-Black",
         "weight": 800,
         "weightReadable": "Black"
       },
       {
-        "path": "ExtraBlack/Melange-ExtraBlack",
+        "path": "ExtraBlack/MelangeNeue-ExtraBlack",
         "weight": 900,
         "weightReadable": "ExtraBlack"
       }
