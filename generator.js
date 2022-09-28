@@ -5,7 +5,8 @@ const data = {
   "abc": 3,
   "fcd": {
     "asd": "teres"
-  }
+  },
+  "asd": 'a'
 }
 var json = JSON.stringify(data, null, 2);
 
