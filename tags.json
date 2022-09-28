@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Services",
+    "isMainTag": true,
+    "subTags": [
+      "Branding",
+      "Editorial",
+      "Digital"
+    ],
+    "show": true,
+    "value": "Services"
+  },
+  {
+    "name": "Typefaces",
+    "isMainTag": true,
+    "subTags": [
+      "Sans-serif",
+      "Serif",
+      "Monospace"
+    ],
+    "show": true,
+    "value": "Typefaces"
+  },
+  {
+    "name": "Objects",
+    "isMainTag": true,
+    "show": true,
+    "value": "Objects"
+  },
+  {
+    "name": "Garmets",
+    "isMainTag": true,
+    "show": true,
+    "value": "Garmets"
+  },
+  {
+    "name": "Branding",
+    "subTags": [
+      "asd",
+      "qwe",
+      "ert"
+    ],
+    "value": "Branding"
+  },
+  {
+    "name": "asd",
+    "value": "asd"
+  },
+  {
+    "name": "qwe",
+    "value": "qwe"
+  },
+  {
+    "name": "ert",
+    "value": "ert"
+  },
+  {
+    "name": "In-house",
+    "value": "In-house"
+  },
+  {
+    "name": "Book",
+    "value": "Book"
+  },
+  {
+    "name": "Magazine",
+    "value": "Magazine"
+  },
+  {
+    "name": "Catalogue",
+    "value": "Catalogue"
+  },
+  {
+    "name": "Sans-serif",
+    "value": "Sans-serif"
+  },
+  {
+    "name": "Serif",
+    "value": "Serif"
+  },
+  {
+    "name": "Monospace",
+    "value": "Monospace"
+  },
+  {
+    "name": "Poster",
+    "value": "Poster"
+  },
+  {
+    "name": "Products",
+    "value": "Products"
+  },
+  {
+    "name": "Editorial",
+    "subTags": [
+      "Book",
+      "Magazine",
+      "Catalogue"
+    ],
+    "value": "Editorial"
+  },
+  {
+    "name": "Digital",
+    "value": "Digital"
+  }
+]

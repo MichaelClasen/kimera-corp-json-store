@@ -1,0 +1,11 @@
+{
+  "name": "Kimera-Static-Json-Store",
+  "version": "1.0.0",
+  "description": "Generator",
+  "main": "generator.js",
+  "scripts": {
+    "start": "node generator.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Artur Neufeld"
+}
