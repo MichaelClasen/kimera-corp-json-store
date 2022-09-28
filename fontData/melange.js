@@ -3,20 +3,20 @@ const { MakeFontFamily } = require('./fontDataHelpers.js');
 const name = "Melange"
 
 const Melange = {
-  name: name + " Neue",
+  name: name,
   fontDir: `/fonts/${name}/`,
   fontFamilies: [
-    MakeFontFamily(name, 100, "Hairline"),
-    MakeFontFamily(name, 150, "Thin"),
-    MakeFontFamily(name, 200, "Light"),
-    MakeFontFamily(name, 300, "Book"),
-    MakeFontFamily(name, 400, "Regular"),
-    MakeFontFamily(name, 450, "Medium"),
-    MakeFontFamily(name, 500, "SemiBold"),
-    MakeFontFamily(name, 600, "Bold"),
-    MakeFontFamily(name, 700, "ExtraBold"),
-    MakeFontFamily(name, 800, "Black"),
-    MakeFontFamily(name, 900, "ExtraBlack"),
+    MakeFontFamily(name + "Neue", 100, "Hairline"),
+    MakeFontFamily(name + "Neue", 150, "Thin"),
+    MakeFontFamily(name + "Neue", 200, "Light"),
+    MakeFontFamily(name + "Neue", 300, "Book"),
+    MakeFontFamily(name + "Neue", 400, "Regular"),
+    MakeFontFamily(name + "Neue", 450, "Medium"),
+    MakeFontFamily(name + "Neue", 500, "SemiBold"),
+    MakeFontFamily(name + "Neue", 600, "Bold"),
+    MakeFontFamily(name + "Neue", 700, "ExtraBold"),
+    MakeFontFamily(name + "Neue", 800, "Black"),
+    MakeFontFamily(name + "Neue", 900, "ExtraBlack"),
 
   ]
 
