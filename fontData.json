@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Waldenburg",
+    "fontDir": "/fonts/Waldenburg/",
+    "fontFamilies": [
+      {
+        "path": "Buch/Waldenburg-Buch",
+        "weight": 375,
+        "weightReadable": "Buch"
+      },
+      {
+        "path": "Halbfett/Waldenburg-Halbfett",
+        "weight": 500,
+        "weightReadable": "Halbfett"
+      },
+      {
+        "path": "Fett/Waldenburg-Fett",
+        "weight": 700,
+        "weightReadable": "Fett"
+      }
+    ]
+  },
+  {
+    "name": "Melange Neue",
+    "fontDir": "/fonts/Melange/",
+    "fontFamilies": [
+      {
+        "path": "Hairline/Melange-Hairline",
+        "weight": 100,
+        "weightReadable": "Hairline"
+      },
+      {
+        "path": "Thin/Melange-Thin",
+        "weight": 150,
+        "weightReadable": "Thin"
+      },
+      {
+        "path": "Light/Melange-Light",
+        "weight": 200,
+        "weightReadable": "Light"
+      },
+      {
+        "path": "Book/Melange-Book",
+        "weight": 300,
+        "weightReadable": "Book"
+      },
+      {
+        "path": "Regular/Melange-Regular",
+        "weight": 400,
+        "weightReadable": "Regular"
+      },
+      {
+        "path": "Medium/Melange-Medium",
+        "weight": 450,
+        "weightReadable": "Medium"
+      },
+      {
+        "path": "SemiBold/Melange-SemiBold",
+        "weight": 500,
+        "weightReadable": "SemiBold"
+      },
+      {
+        "path": "Bold/Melange-Bold",
+        "weight": 600,
+        "weightReadable": "Bold"
+      },
+      {
+        "path": "ExtraBold/Melange-ExtraBold",
+        "weight": 700,
+        "weightReadable": "ExtraBold"
+      },
+      {
+        "path": "Black/Melange-Black",
+        "weight": 800,
+        "weightReadable": "Black"
+      },
+      {
+        "path": "ExtraBlack/Melange-ExtraBlack",
+        "weight": 900,
+        "weightReadable": "ExtraBlack"
+      }
+    ]
+  }
+]
