@@ -1,5 +1,10 @@
 [
   {
+    "name": "Kimera",
+    "isTitle": true,
+    "show": false
+  },
+  {
     "name": "Services",
     "isMainTag": true,
     "subTags": [
