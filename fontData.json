@@ -11,14 +11,14 @@
         "fontStretch": "normal"
       },
       {
-        "path": "Fein Halbschmal/Waldenburg-Fein Halbschmal",
+        "path": "FeinHalbschmal/Waldenburg-FeinHalbschmal",
         "weight": 100,
         "weightReadable": "Fein Halbschmal",
         "fontStyle": "normal",
         "fontStretch": "semi-condensed"
       },
       {
-        "path": "Fein Schmal/Waldenburg-Fein Schmal",
+        "path": "FeinSchmal/Waldenburg-FeinSchmal",
         "weight": 100,
         "weightReadable": "Fein Schmal",
         "fontStyle": "normal",
@@ -32,14 +32,14 @@
         "fontStretch": "normal"
       },
       {
-        "path": "Buch Halbschmal/Waldenburg-Buch Halbschmal",
+        "path": "BuchHalbschmal/Waldenburg-BuchHalbschmal",
         "weight": 375,
         "weightReadable": "Buch Halbschmal",
         "fontStyle": "normal",
         "fontStretch": "semi-condensed"
       },
       {
-        "path": "Buch Schmal/Waldenburg-Buch Schmal",
+        "path": "BuchSchmal/Waldenburg-BuchSchmal",
         "weight": 375,
         "weightReadable": "Buch Schmal",
         "fontStyle": "normal",

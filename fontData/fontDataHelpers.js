@@ -1,6 +1,10 @@
+const MakePath = function(path) {
+  return path.split(" ").join("")
+}
+
 const MakeFontFamily = function(name, weight, readableWeight, fontStretch = 'normal', fontStyle = 'normal') {
   return {
-    path: `${readableWeight}/${name}-${readableWeight}`,
+    path: MakePath(`${readableWeight}/${name}-${readableWeight}`),
     weight: weight,
     weightReadable: `${readableWeight}`,
     fontStyle: fontStyle,
