@@ -6,7 +6,12 @@ const Waldenburg = {
   name: name,
   fontDir: `/fonts/${name}/`,
   fontFamilies: [
+    MakeFontFamily(name, 100, "Fein"),
+    MakeFontFamily(name, 100, "Fein Halbschmal", 'semi-condensed'),
+    MakeFontFamily(name, 100, "Fein Schmal", 'condensed'),
     MakeFontFamily(name, 375, "Buch"),
+    MakeFontFamily(name, 375, "Buch Halbschmal", 'semi-condensed'),
+    MakeFontFamily(name, 375, "Buch Schmal", 'condensed'),
     MakeFontFamily(name, 500, "Halbfett"),
     MakeFontFamily(name, 700, "Fett"),
   ]

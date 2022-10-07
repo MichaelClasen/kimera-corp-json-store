@@ -4,19 +4,60 @@
     "fontDir": "/fonts/Waldenburg/",
     "fontFamilies": [
       {
+        "path": "Fein/Waldenburg-Fein",
+        "weight": 100,
+        "weightReadable": "Fein",
+        "fontStyle": "normal",
+        "fontStretch": "normal"
+      },
+      {
+        "path": "Fein Halbschmal/Waldenburg-Fein Halbschmal",
+        "weight": 100,
+        "weightReadable": "Fein Halbschmal",
+        "fontStyle": "normal",
+        "fontStretch": "semi-condensed"
+      },
+      {
+        "path": "Fein Schmal/Waldenburg-Fein Schmal",
+        "weight": 100,
+        "weightReadable": "Fein Schmal",
+        "fontStyle": "normal",
+        "fontStretch": "condensed"
+      },
+      {
         "path": "Buch/Waldenburg-Buch",
         "weight": 375,
-        "weightReadable": "Buch"
+        "weightReadable": "Buch",
+        "fontStyle": "normal",
+        "fontStretch": "normal"
+      },
+      {
+        "path": "Buch Halbschmal/Waldenburg-Buch Halbschmal",
+        "weight": 375,
+        "weightReadable": "Buch Halbschmal",
+        "fontStyle": "normal",
+        "fontStretch": "semi-condensed"
+      },
+      {
+        "path": "Buch Schmal/Waldenburg-Buch Schmal",
+        "weight": 375,
+        "weightReadable": "Buch Schmal",
+        "fontStyle": "normal",
+        "fontStretch": "condensed"
       },
       {
         "path": "Halbfett/Waldenburg-Halbfett",
         "weight": 500,
-        "weightReadable": "Halbfett"
+        "weightReadable": "Halbfett",
+        "fontStyle": "normal",
+        "fontStretch": "normal"
       },
       {
         "path": "Fett/Waldenburg-Fett",
         "weight": 700,
-        "weightReadable": "Fett"
+        "weightReadable": "Fett",
+        "fontStyle": "normal",
+        "fontStretch": "normal"
       }
     ]
   },
@@ -27,57 +68,79 @@
       {
         "path": "Hairline/MelangeNeue-Hairline",
         "weight": 100,
-        "weightReadable": "Hairline"
+        "weightReadable": "Hairline",
+        "fontStyle": "normal",
+        "fontStretch": "normal"
       },
       {
         "path": "Thin/MelangeNeue-Thin",
         "weight": 150,
-        "weightReadable": "Thin"
+        "weightReadable": "Thin",
+        "fontStyle": "normal",
+        "fontStretch": "normal"
       },
       {
         "path": "Light/MelangeNeue-Light",
         "weight": 200,
-        "weightReadable": "Light"
+        "weightReadable": "Light",
+        "fontStyle": "normal",
+        "fontStretch": "normal"
       },
       {
         "path": "Book/MelangeNeue-Book",
         "weight": 300,
-        "weightReadable": "Book"
+        "weightReadable": "Book",
+        "fontStyle": "normal",
+        "fontStretch": "normal"
       },
       {
         "path": "Regular/MelangeNeue-Regular",
         "weight": 400,
-        "weightReadable": "Regular"
+        "weightReadable": "Regular",
+        "fontStyle": "normal",
+        "fontStretch": "normal"
       },
       {
         "path": "Medium/MelangeNeue-Medium",
         "weight": 450,
-        "weightReadable": "Medium"
+        "weightReadable": "Medium",
+        "fontStyle": "normal",
+        "fontStretch": "normal"
       },
       {
         "path": "SemiBold/MelangeNeue-SemiBold",
         "weight": 500,
-        "weightReadable": "SemiBold"
+        "weightReadable": "SemiBold",
+        "fontStyle": "normal",
+        "fontStretch": "normal"
       },
       {
         "path": "Bold/MelangeNeue-Bold",
         "weight": 600,
-        "weightReadable": "Bold"
+        "weightReadable": "Bold",
+        "fontStyle": "normal",
+        "fontStretch": "normal"
       },
       {
         "path": "ExtraBold/MelangeNeue-ExtraBold",
         "weight": 700,
-        "weightReadable": "ExtraBold"
+        "weightReadable": "ExtraBold",
+        "fontStyle": "normal",
+        "fontStretch": "normal"
       },
       {
         "path": "Black/MelangeNeue-Black",
         "weight": 800,
-        "weightReadable": "Black"
+        "weightReadable": "Black",
+        "fontStyle": "normal",
+        "fontStretch": "normal"
       },
       {
         "path": "ExtraBlack/MelangeNeue-ExtraBlack",
         "weight": 900,
-        "weightReadable": "ExtraBlack"
+        "weightReadable": "ExtraBlack",
+        "fontStyle": "normal",
+        "fontStretch": "normal"
       }
     ]
   }
