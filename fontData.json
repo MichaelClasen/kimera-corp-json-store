@@ -32,10 +32,24 @@
         "fontStretch": "normal"
       },
       {
+        "path": "BuchKursiv/Waldenburg-BuchKursiv",
+        "weight": 375,
+        "weightReadable": "Buch Kursiv",
+        "fontStyle": "italic",
+        "fontStretch": "normal"
+      },
+      {
         "path": "BuchHalbschmal/Waldenburg-BuchHalbschmal",
         "weight": 375,
         "weightReadable": "Buch Halbschmal",
         "fontStyle": "normal",
+        "fontStretch": "semi-condensed"
+      },
+      {
+        "path": "BuchHalbschmalKursiv/Waldenburg-BuchHalbschmalKursiv",
+        "weight": 375,
+        "weightReadable": "Buch Halbschmal Kursiv",
+        "fontStyle": "italic",
         "fontStretch": "semi-condensed"
       },
       {
