@@ -11,10 +11,24 @@
         "fontStretch": "normal"
       },
       {
+        "path": "FeinKursiv/Waldenburg-FeinKursiv",
+        "weight": 100,
+        "weightReadable": "Fein Kursiv",
+        "fontStyle": "italic",
+        "fontStretch": "normal"
+      },
+      {
         "path": "FeinHalbschmal/Waldenburg-FeinHalbschmal",
         "weight": 100,
         "weightReadable": "Fein Halbschmal",
         "fontStyle": "normal",
+        "fontStretch": "semi-condensed"
+      },
+      {
+        "path": "FeinHalbschmalKursiv/Waldenburg-FeinHalbschmalKursiv",
+        "weight": 100,
+        "weightReadable": "Fein Halbschmal Kursiv",
+        "fontStyle": "italic",
         "fontStretch": "semi-condensed"
       },
       {
@@ -25,38 +39,136 @@
         "fontStretch": "condensed"
       },
       {
+        "path": "FeinSchmalKursiv/Waldenburg-FeinSchmalKursiv",
+        "weight": 100,
+        "weightReadable": "Fein Schmal Kursiv",
+        "fontStyle": "italic",
+        "fontStretch": "condensed"
+      },
+      {
+        "path": "Mager/Waldenburg-Mager",
+        "weight": 200,
+        "weightReadable": "Mager",
+        "fontStyle": "normal",
+        "fontStretch": "normal"
+      },
+      {
+        "path": "MagerKursiv/Waldenburg-MagerKursiv",
+        "weight": 200,
+        "weightReadable": "Mager Kursiv",
+        "fontStyle": "italic",
+        "fontStretch": "normal"
+      },
+      {
+        "path": "MagerHalbschmal/Waldenburg-MagerHalbschmal",
+        "weight": 200,
+        "weightReadable": "Mager Halbschmal",
+        "fontStyle": "normal",
+        "fontStretch": "semi-condensed"
+      },
+      {
+        "path": "MagerHalbschmalKursiv/Waldenburg-MagerHalbschmalKursiv",
+        "weight": 200,
+        "weightReadable": "Mager Halbschmal Kursiv",
+        "fontStyle": "italic",
+        "fontStretch": "semi-condensed"
+      },
+      {
+        "path": "MagerSchmal/Waldenburg-MagerSchmal",
+        "weight": 200,
+        "weightReadable": "Mager Schmal",
+        "fontStyle": "normal",
+        "fontStretch": "condensed"
+      },
+      {
+        "path": "MagerSchmalKursiv/Waldenburg-MagerSchmalKursiv",
+        "weight": 200,
+        "weightReadable": "Mager Schmal Kursiv",
+        "fontStyle": "italic",
+        "fontStretch": "condensed"
+      },
+      {
         "path": "Buch/Waldenburg-Buch",
-        "weight": 375,
+        "weight": 300,
         "weightReadable": "Buch",
         "fontStyle": "normal",
         "fontStretch": "normal"
       },
       {
         "path": "BuchKursiv/Waldenburg-BuchKursiv",
-        "weight": 375,
+        "weight": 300,
         "weightReadable": "Buch Kursiv",
         "fontStyle": "italic",
         "fontStretch": "normal"
       },
       {
         "path": "BuchHalbschmal/Waldenburg-BuchHalbschmal",
-        "weight": 375,
+        "weight": 300,
         "weightReadable": "Buch Halbschmal",
         "fontStyle": "normal",
         "fontStretch": "semi-condensed"
       },
       {
         "path": "BuchHalbschmalKursiv/Waldenburg-BuchHalbschmalKursiv",
-        "weight": 375,
+        "weight": 300,
         "weightReadable": "Buch Halbschmal Kursiv",
         "fontStyle": "italic",
         "fontStretch": "semi-condensed"
       },
       {
         "path": "BuchSchmal/Waldenburg-BuchSchmal",
-        "weight": 375,
+        "weight": 300,
         "weightReadable": "Buch Schmal",
         "fontStyle": "normal",
+        "fontStretch": "condensed"
+      },
+      {
+        "path": "BuchSchmalKursiv/Waldenburg-BuchSchmalKursiv",
+        "weight": 300,
+        "weightReadable": "Buch Schmal Kursiv",
+        "fontStyle": "italic",
+        "fontStretch": "condensed"
+      },
+      {
+        "path": "Normal/Waldenburg-Normal",
+        "weight": 400,
+        "weightReadable": "Normal",
+        "fontStyle": "normal",
+        "fontStretch": "normal"
+      },
+      {
+        "path": "NormalKursiv/Waldenburg-NormalKursiv",
+        "weight": 400,
+        "weightReadable": "Normal Kursiv",
+        "fontStyle": "italic",
+        "fontStretch": "normal"
+      },
+      {
+        "path": "Halbschmal/Waldenburg-Halbschmal",
+        "weight": 400,
+        "weightReadable": "Halbschmal",
+        "fontStyle": "normal",
+        "fontStretch": "semi-condensed"
+      },
+      {
+        "path": "HalbschmalKursiv/Waldenburg-HalbschmalKursiv",
+        "weight": 400,
+        "weightReadable": "Halbschmal Kursiv",
+        "fontStyle": "italic",
+        "fontStretch": "semi-condensed"
+      },
+      {
+        "path": "Schmal/Waldenburg-Schmal",
+        "weight": 400,
+        "weightReadable": "Schmal",
+        "fontStyle": "normal",
+        "fontStretch": "condensed"
+      },
+      {
+        "path": "SchmalKursiv/Waldenburg-SchmalKursiv",
+        "weight": 400,
+        "weightReadable": "Schmal Kursiv",
+        "fontStyle": "italic",
         "fontStretch": "condensed"
       },
       {
@@ -67,11 +179,165 @@
         "fontStretch": "normal"
       },
       {
+        "path": "HalbfettKursiv/Waldenburg-HalbfettKursiv",
+        "weight": 500,
+        "weightReadable": "Halbfett Kursiv",
+        "fontStyle": "italic",
+        "fontStretch": "normal"
+      },
+      {
+        "path": "HalbfettHalbschmal/Waldenburg-HalbfettHalbschmal",
+        "weight": 500,
+        "weightReadable": "Halbfett Halbschmal",
+        "fontStyle": "normal",
+        "fontStretch": "semi-condensed"
+      },
+      {
+        "path": "HalbfettHalbschmalKursiv/Waldenburg-HalbfettHalbschmalKursiv",
+        "weight": 500,
+        "weightReadable": "Halbfett Halbschmal Kursiv",
+        "fontStyle": "italic",
+        "fontStretch": "semi-condensed"
+      },
+      {
+        "path": "HalbfettSchmal/Waldenburg-HalbfettSchmal",
+        "weight": 500,
+        "weightReadable": "Halbfett Schmal",
+        "fontStyle": "normal",
+        "fontStretch": "condensed"
+      },
+      {
+        "path": "HalbfettSchmalKursiv/Waldenburg-HalbfettSchmalKursiv",
+        "weight": 500,
+        "weightReadable": "Halbfett Schmal Kursiv",
+        "fontStyle": "italic",
+        "fontStretch": "condensed"
+      },
+      {
         "path": "Fett/Waldenburg-Fett",
-        "weight": 700,
+        "weight": 600,
         "weightReadable": "Fett",
         "fontStyle": "normal",
         "fontStretch": "normal"
+      },
+      {
+        "path": "FettKursiv/Waldenburg-FettKursiv",
+        "weight": 600,
+        "weightReadable": "Fett Kursiv",
+        "fontStyle": "italic",
+        "fontStretch": "normal"
+      },
+      {
+        "path": "FettHalbschmal/Waldenburg-FettHalbschmal",
+        "weight": 600,
+        "weightReadable": "Fett Halbschmal",
+        "fontStyle": "normal",
+        "fontStretch": "semi-condensed"
+      },
+      {
+        "path": "FettHalbschmalKursiv/Waldenburg-FettHalbschmalKursiv",
+        "weight": 600,
+        "weightReadable": "Fett Halbschmal Kursiv",
+        "fontStyle": "italic",
+        "fontStretch": "semi-condensed"
+      },
+      {
+        "path": "FettSchmal/Waldenburg-FettSchmal",
+        "weight": 600,
+        "weightReadable": "Fett Schmal",
+        "fontStyle": "normal",
+        "fontStretch": "condensed"
+      },
+      {
+        "path": "FettSchmalKursiv/Waldenburg-FettSchmalKursiv",
+        "weight": 600,
+        "weightReadable": "Fett Schmal Kursiv",
+        "fontStyle": "italic",
+        "fontStretch": "condensed"
+      },
+      {
+        "path": "Schwer/Waldenburg-Schwer",
+        "weight": 700,
+        "weightReadable": "Schwer",
+        "fontStyle": "normal",
+        "fontStretch": "normal"
+      },
+      {
+        "path": "SchwerKursiv/Waldenburg-SchwerKursiv",
+        "weight": 700,
+        "weightReadable": "Schwer Kursiv",
+        "fontStyle": "italic",
+        "fontStretch": "normal"
+      },
+      {
+        "path": "SchwerHalbschmal/Waldenburg-SchwerHalbschmal",
+        "weight": 700,
+        "weightReadable": "Schwer Halbschmal",
+        "fontStyle": "normal",
+        "fontStretch": "semi-condensed"
+      },
+      {
+        "path": "SchwerHalbschmalKursiv/Waldenburg-SchwerHalbschmalKursiv",
+        "weight": 700,
+        "weightReadable": "Schwer Halbschmal Kursiv",
+        "fontStyle": "italic",
+        "fontStretch": "semi-condensed"
+      },
+      {
+        "path": "SchwerSchmal/Waldenburg-SchwerSchmal",
+        "weight": 700,
+        "weightReadable": "Schwer Schmal",
+        "fontStyle": "normal",
+        "fontStretch": "condensed"
+      },
+      {
+        "path": "SchwerSchmalKursiv/Waldenburg-SchwerSchmalKursiv",
+        "weight": 700,
+        "weightReadable": "Schwer Schmal Kursiv",
+        "fontStyle": "italic",
+        "fontStretch": "condensed"
+      },
+      {
+        "path": "Schwarz/Waldenburg-Schwarz",
+        "weight": 800,
+        "weightReadable": "Schwarz",
+        "fontStyle": "normal",
+        "fontStretch": "normal"
+      },
+      {
+        "path": "SchwarzKursiv/Waldenburg-SchwarzKursiv",
+        "weight": 800,
+        "weightReadable": "Schwarz Kursiv",
+        "fontStyle": "italic",
+        "fontStretch": "normal"
+      },
+      {
+        "path": "SchwarzHalbschmal/Waldenburg-SchwarzHalbschmal",
+        "weight": 800,
+        "weightReadable": "Schwarz Halbschmal",
+        "fontStyle": "normal",
+        "fontStretch": "semi-condensed"
+      },
+      {
+        "path": "SchwarzHalbschmalKursiv/Waldenburg-SchwarzHalbschmalKursiv",
+        "weight": 800,
+        "weightReadable": "Schwarz Halbschmal Kursiv",
+        "fontStyle": "italic",
+        "fontStretch": "semi-condensed"
+      },
+      {
+        "path": "SchwarzSchmal/Waldenburg-SchwarzSchmal",
+        "weight": 800,
+        "weightReadable": "Schwarz Schmal",
+        "fontStyle": "normal",
+        "fontStretch": "condensed"
+      },
+      {
+        "path": "SchwarzSchmalKursiv/Waldenburg-SchwarzSchmalKursiv",
+        "weight": 800,
+        "weightReadable": "Schwarz Schmal Kursiv",
+        "fontStyle": "italic",
+        "fontStretch": "condensed"
       }
     ]
   },
