@@ -12,6 +12,13 @@ const MakeFontFamily = function(name, weight, readableWeight, fontStretch = 'nor
   }
 }
 
+const MakeOpenTypeFeatures = function(label, value) {
+  return {
+    "label": label,
+    "value": value
+  }
+}
+
 // const GetWeightReadable = function
 // export { MakeFontFamily }
-module.exports = { MakeFontFamily }
+module.exports = { MakeFontFamily, MakeOpenTypeFeatures }

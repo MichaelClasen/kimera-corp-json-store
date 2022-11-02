@@ -1,10 +1,15 @@
 // import { MakeFontFamily } from 'fontDataHelpers.js'
-const { MakeFontFamily } = require('./fontDataHelpers.js');
+const { MakeFontFamily, MakeOpenTypeFeatures } = require('./fontDataHelpers.js');
 
 const name = "Waldenburg"
 const Waldenburg = {
   name: name,
   fontDir: `/fonts/${name}/`,
+  openTypeFeatures: [
+    MakeOpenTypeFeatures('Stylistic Alternatives', 'salt'),
+    MakeOpenTypeFeatures('Standard Ligatures', 'liga'),
+    MakeOpenTypeFeatures('Case-Sensitive Form', 'case')
+  ],
   fontFamilies: [
     MakeFontFamily(name, 100, "Fein"),
     MakeFontFamily(name, 100, "Fein Kursiv", 'normal', 'italic'),

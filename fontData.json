@@ -2,6 +2,20 @@
   {
     "name": "Waldenburg",
     "fontDir": "/fonts/Waldenburg/",
+    "openTypeFeatures": [
+      {
+        "label": "Stylistic Alternatives",
+        "value": "salt"
+      },
+      {
+        "label": "Standard Ligatures",
+        "value": "liga"
+      },
+      {
+        "label": "Case-Sensitive Form",
+        "value": "case"
+      }
+    ],
     "fontFamilies": [
       {
         "path": "Fein/Waldenburg-Fein",
