@@ -10,6 +10,7 @@ const Waldenburg = {
     MakeOpenTypeFeatures('Standard Ligatures', 'liga'),
     MakeOpenTypeFeatures('Case-Sensitive Form', 'case')
   ],
+  variable: `/fonts/${name}/${name}Variable`,
   fontFamilies: [
     MakeFontFamily(name, 100, "Fein"),
     MakeFontFamily(name, 100, "Fein Kursiv", 'normal', 'italic'),
