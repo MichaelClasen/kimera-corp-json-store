@@ -4,8 +4,8 @@ const { MakeFontFamily, MakeOpenTypeFeatures } = require('./fontDataHelpers.js')
 const name = "KMR-Waldenburg"
 const Waldenburg = {
   name: name,
-  // fontDir: `/fonts/${name}/`,
-  fontDir: `/fonts/Waldenburg/`,
+  fontDir: `/fonts/${name}/`,
+  // fontDir: `/fonts/Waldenburg/`,
   openTypeFeatures: [
     MakeOpenTypeFeatures('Light Punctuation', 'ss01'),
     MakeOpenTypeFeatures('Heavy Punctuation', 'ss02'),
@@ -24,7 +24,7 @@ const Waldenburg = {
     MakeOpenTypeFeatures('Scientific Inferiors', 'sinf'),
     MakeOpenTypeFeatures('Slashed Zero', 'zero'),
   ],
-  variable: `/fonts/Waldenburg/${name}Variable`,
+  variable: `/fonts/${name}/${name}Variable`,
   fontFamilies: [
     MakeFontFamily(name, 100, "Fein"),
     MakeFontFamily(name, 100, "Fein Kursiv", 'normal', 'italic'),

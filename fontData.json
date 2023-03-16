@@ -1,7 +1,7 @@
 [
   {
     "name": "KMR-Waldenburg",
-    "fontDir": "/fonts/Waldenburg/",
+    "fontDir": "/fonts/KMR-Waldenburg/",
     "openTypeFeatures": [
       {
         "label": "Light Punctuation",
@@ -68,7 +68,7 @@
         "value": "zero"
       }
     ],
-    "variable": "/fonts/Waldenburg/KMR-WaldenburgVariable",
+    "variable": "/fonts/KMR-Waldenburg/KMR-WaldenburgVariable",
     "fontFamilies": [
       {
         "path": "Fein/KMR-Waldenburg-Fein",
