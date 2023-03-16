@@ -1,16 +1,30 @@
 // import { MakeFontFamily } from 'fontDataHelpers.js'
 const { MakeFontFamily, MakeOpenTypeFeatures } = require('./fontDataHelpers.js');
 
-const name = "Waldenburg"
+const name = "KMR-Waldenburg"
 const Waldenburg = {
   name: name,
-  fontDir: `/fonts/${name}/`,
+  // fontDir: `/fonts/${name}/`,
+  fontDir: `/fonts/Waldenburg/`,
   openTypeFeatures: [
-    MakeOpenTypeFeatures('Stylistic Alternatives', 'salt'),
+    MakeOpenTypeFeatures('Light Punctuation', 'ss01'),
+    MakeOpenTypeFeatures('Heavy Punctuation', 'ss02'),
+    MakeOpenTypeFeatures('Alternate Ampersand', 'ss03'),
+    MakeOpenTypeFeatures('Alternate G', 'ss04'),
+    MakeOpenTypeFeatures('Alternate R', 'ss05'),
+    MakeOpenTypeFeatures('Case-Sensitive Form', 'case'),
     MakeOpenTypeFeatures('Standard Ligatures', 'liga'),
-    MakeOpenTypeFeatures('Case-Sensitive Form', 'case')
+    MakeOpenTypeFeatures('Stylistic Alternatives', 'salt'),
+    MakeOpenTypeFeatures('Denominators', 'dnom'),
+    MakeOpenTypeFeatures('Fractions', 'frac'),
+    MakeOpenTypeFeatures('Historical Forms', 'hist'),
+    MakeOpenTypeFeatures('Localized Forms', 'locl'),
+    MakeOpenTypeFeatures('Numerators', 'numr'),
+    MakeOpenTypeFeatures('Ordinals', 'ordn'),
+    MakeOpenTypeFeatures('Scientific Inferiors', 'sinf'),
+    MakeOpenTypeFeatures('Slashed Zero', 'zero'),
   ],
-  variable: `/fonts/${name}/${name}Variable`,
+  variable: `/fonts/Waldenburg/${name}Variable`,
   fontFamilies: [
     MakeFontFamily(name, 100, "Fein"),
     MakeFontFamily(name, 100, "Fein Kursiv", 'normal', 'italic'),
