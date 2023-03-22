@@ -25,7 +25,7 @@ const Waldenburg = {
     MakeOpenTypeFeatures("Scientific Inferiors", "sinf"),
     MakeOpenTypeFeatures("Slashed Zero", "zero"),
   ],
-  openTypeFeaturesSelected: ["ss05", "ss04", "ss03", "ss01", "ss02"],
+  openTypeFeaturesFiltered: ["ss05", "ss04", "ss03", "ss01", "ss02", "case"],
   variable: `/fonts/${name}/${name}Variable`,
   fontFamilies: [
     MakeFontFamily(name, 100, "Fein"),

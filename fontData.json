@@ -69,12 +69,13 @@
         "value": "zero"
       }
     ],
-    "openTypeFeaturesSelected": [
+    "openTypeFeaturesFiltered": [
       "ss05",
       "ss04",
       "ss03",
       "ss01",
-      "ss02"
+      "ss02",
+      "case"
     ],
     "variable": "/fonts/KMR-Waldenburg/KMR-WaldenburgVariable",
     "fontFamilies": [
