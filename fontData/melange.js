@@ -1,9 +1,10 @@
-const { MakeFontFamily } = require('./fontDataHelpers.js');
+const { MakeFontFamily } = require("./fontDataHelpers.js")
 
 const name = "Melange"
 
 const Melange = {
   name: name,
+  nameReadable: "Melange",
   fontDir: `/fonts/${name}/`,
   fontFamilies: [
     MakeFontFamily(name + "Neue", 100, "Hairline"),
@@ -17,10 +18,7 @@ const Melange = {
     MakeFontFamily(name + "Neue", 700, "ExtraBold"),
     MakeFontFamily(name + "Neue", 800, "Black"),
     MakeFontFamily(name + "Neue", 900, "ExtraBlack"),
-
-  ]
-
-
+  ],
 }
 
 module.exports = { Melange }

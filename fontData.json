@@ -1,6 +1,7 @@
 [
   {
     "name": "KMR-Waldenburg",
+    "nameReadable": "Waldenburg",
     "fontDir": "/fonts/KMR-Waldenburg/",
     "openTypeFeatures": [
       {
@@ -67,6 +68,13 @@
         "label": "Slashed Zero",
         "value": "zero"
       }
+    ],
+    "openTypeFeaturesSelected": [
+      "ss05",
+      "ss04",
+      "ss03",
+      "ss01",
+      "ss02"
     ],
     "variable": "/fonts/KMR-Waldenburg/KMR-WaldenburgVariable",
     "fontFamilies": [
@@ -410,6 +418,7 @@
   },
   {
     "name": "Melange",
+    "nameReadable": "Melange",
     "fontDir": "/fonts/Melange/",
     "fontFamilies": [
       {
