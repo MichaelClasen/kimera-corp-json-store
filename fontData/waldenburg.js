@@ -10,9 +10,9 @@ const Waldenburg = {
   openTypeFeatures: [
     MakeOpenTypeFeatures("Light Punctuation", "ss01"),
     MakeOpenTypeFeatures("Heavy Punctuation", "ss02"),
-    MakeOpenTypeFeatures("Alternate Ampersand", "ss03"),
-    MakeOpenTypeFeatures("Alternate G", "ss04"),
-    MakeOpenTypeFeatures("Alternate R", "ss05"),
+    MakeOpenTypeFeatures("Alt Ampersand", "ss03"),
+    MakeOpenTypeFeatures("Alt G", "ss04"),
+    MakeOpenTypeFeatures("Alt R", "ss05"),
     MakeOpenTypeFeatures("Case-Sensitive Form", "case"),
     MakeOpenTypeFeatures("Standard Ligatures", "liga"),
     MakeOpenTypeFeatures("Stylistic Alternatives", "salt"),
