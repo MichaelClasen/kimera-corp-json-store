@@ -5,18 +5,18 @@
     "show": false
   },
   {
-    "name": "Services",
-    "isMainTag": true,
-    "subTags": ["Identity", "Editorial", "Custom Type"],
-    "show": true,
-    "value": "Services"
-  },
-  {
     "name": "Typefaces",
     "isMainTag": true,
     "subTags": ["Sans", "Serif", "Mono", "Display"],
     "show": true,
     "value": "Typefaces"
+  },
+  {
+    "name": "Services",
+    "isMainTag": true,
+    "subTags": ["Identity", "Editorial", "Custom Type"],
+    "show": true,
+    "value": "Services"
   },
   {
     "name": "Products",
