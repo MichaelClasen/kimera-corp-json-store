@@ -5,7 +5,7 @@ const name = "KMR-Waldenburg"
 const Waldenburg = {
   name: name,
   nameReadable: "Waldenburg",
-  fontDir: `/fonts/${name}/`,
+  fontDir: `/fonts/${name}/WEB/WOFF/`,
   // fontDir: `/fonts/Waldenburg/`,
   openTypeFeatures: [
     MakeOpenTypeFeatures("Light Punctuation", "ss01"),
