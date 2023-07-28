@@ -26,7 +26,7 @@ const Apparat = {
     MakeOpenTypeFeatures("Localized Forms", "locl"),
   ],
   openTypeFeaturesFiltered: ["dlig", "ccmp", "calt", "aalt", "liga"],
-  variable: null,
+  variable: `/fonts/${name}/${name}VF`,
   fontFamilies: [
     MakeFontFamily(name, 100, "Light"),
     MakeFontFamily(name, 200, "Regular"),
