@@ -11,7 +11,7 @@ const Apparat = {
     MakeOpenTypeFeatures("Access All Alternates", "aalt"),
     MakeOpenTypeFeatures("Contextual Alternates", "calt"),
     MakeOpenTypeFeatures("Glyph (De)Composition", "ccmp"),
-    MakeOpenTypeFeatures("Discretionary Ligatures", "dlig"),
+    MakeOpenTypeFeatures("Digital Clock", "dlig"),
     MakeOpenTypeFeatures("Denominators", "dnom"),
     MakeOpenTypeFeatures("Fractions", "frac"),
     MakeOpenTypeFeatures("Standard Ligatures", "liga"),
