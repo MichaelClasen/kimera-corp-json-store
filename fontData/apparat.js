@@ -25,7 +25,7 @@ const Apparat = {
     MakeOpenTypeFeatures("Tabular Figures", "tnum"),
     MakeOpenTypeFeatures("Localized Forms", "locl"),
   ],
-  openTypeFeaturesFiltered: ["dlig", "ccmp", "calt", "aalt", "liga"],
+  openTypeFeaturesFiltered: ["dlig"],
   variable: `/fonts/${name}/${name}VF`,
   fontFamilies: [
     MakeFontFamily(name, 100, "Light"),

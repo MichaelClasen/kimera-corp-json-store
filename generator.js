@@ -1,10 +1,10 @@
 var fs = require("fs")
 const { Waldenburg } = require("./fontData/waldenburg.js")
-const { Melange } = require("./fontData/melange.js")
+// const { Melange } = require("./fontData/melange.js")
 const { Apparat } = require("./fontData/apparat.js")
 // import Melange from '../fontData/melange.js'
 // console.log(Waldenburg);
-const fontData = [Waldenburg, Melange, Apparat]
+const fontData = [Waldenburg, Apparat]
 const fontDataJson = JSON.stringify(fontData, null, 2)
 
 const fontNames = fontData.map((el) => {
