@@ -526,7 +526,9 @@
         "value": "locl"
       }
     ],
-    "openTypeFeaturesFiltered": ["dlig"],
+    "openTypeFeaturesFiltered": [
+      "dlig"
+    ],
     "variable": "/fonts/KMR-Apparat/KMR-ApparatVF",
     "fontFamilies": [
       {

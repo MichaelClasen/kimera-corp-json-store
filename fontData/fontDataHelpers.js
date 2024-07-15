@@ -1,13 +1,14 @@
 const MakePath = function (path) {
-  return path.split(" ").join("")
-}
+  return path.split(" ").join("");
+};
 
 const MakeFontFamily = function (
   name,
   weight,
   readableWeight,
   fontStretch = "normal",
-  fontStyle = "normal"
+  fontStyle = "normal",
+  isEssential = false
 ) {
   return {
     path: MakePath(`${name}-${readableWeight}`),
@@ -15,16 +16,15 @@ const MakeFontFamily = function (
     weightReadable: `${readableWeight}`,
     fontStyle: fontStyle,
     fontStretch: fontStretch,
-  }
-}
+    ...(isEssential && { isEssential: true }),
+  };
+};
 
 const MakeOpenTypeFeatures = function (label, value) {
   return {
     label: label,
     value: value,
-  }
-}
+  };
+};
 
-// const GetWeightReadable = function
-// export { MakeFontFamily }
-module.exports = { MakeFontFamily, MakeOpenTypeFeatures }
+module.exports = { MakeFontFamily, MakeOpenTypeFeatures };
