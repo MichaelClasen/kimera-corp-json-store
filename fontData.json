@@ -526,7 +526,9 @@
         "value": "locl"
       }
     ],
-    "openTypeFeaturesFiltered": ["dlig"],
+    "openTypeFeaturesFiltered": [
+      "dlig"
+    ],
     "variable": "/fonts/KMR-Apparat/KMR-ApparatVF",
     "fontFamilies": [
       {
@@ -584,6 +586,268 @@
             "weight": 700,
             "weightReadable": "Black",
             "fontStyle": "normal",
+            "fontStretch": "normal"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "KMR-Melange-Grotesk",
+    "nameReadable": "Melange",
+    "fontDir": "/fonts/KMR-Melange-Grotesk/WEB/WOFF/",
+    "openTypeFeatures": [
+      {
+        "label": "Alt a",
+        "value": "ss01"
+      },
+      {
+        "label": "Alt i",
+        "value": "ss02"
+      },
+      {
+        "label": "Alt t",
+        "value": "ss03"
+      },
+      {
+        "label": "Alt u",
+        "value": "ss04"
+      },
+      {
+        "label": "Alt G",
+        "value": "ss05"
+      },
+      {
+        "label": "Alt I",
+        "value": "ss06"
+      },
+      {
+        "label": "Alt J",
+        "value": "ss07"
+      },
+      {
+        "label": "Alt R",
+        "value": "ss08"
+      },
+      {
+        "label": "Schoolbook Set",
+        "value": "ss09"
+      },
+      {
+        "label": "Round Punctuation",
+        "value": "ss10"
+      },
+      {
+        "label": "Small Symbols",
+        "value": "ss11"
+      }
+    ],
+    "openTypeFeaturesFiltered": [
+      "ss01",
+      "ss02",
+      "ss03",
+      "ss04",
+      "ss05",
+      "ss06",
+      "ss07",
+      "ss08",
+      "ss09",
+      "ss10",
+      "ss11"
+    ],
+    "variable": "/fonts/KMR-Melange-Grotesk/KMR-Melange-GroteskVF",
+    "fontFamilies": [
+      {
+        "styleName": "Normal",
+        "styleId": 1,
+        "styleStrech": "normal",
+        "weights": [
+          {
+            "path": "KMR-Melange-Grotesk-Hairline",
+            "weight": 50,
+            "weightReadable": "Hairline",
+            "fontStyle": "normal",
+            "fontStretch": "normal"
+          },
+          {
+            "path": "KMR-Melange-Grotesk-Thin",
+            "weight": 100,
+            "weightReadable": "Thin",
+            "fontStyle": "normal",
+            "fontStretch": "normal"
+          },
+          {
+            "path": "KMR-Melange-Grotesk-ExtraLight",
+            "weight": 200,
+            "weightReadable": "Extra Light",
+            "fontStyle": "normal",
+            "fontStretch": "normal"
+          },
+          {
+            "path": "KMR-Melange-Grotesk-Light",
+            "weight": 300,
+            "weightReadable": "Light",
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "isEssential": true
+          },
+          {
+            "path": "KMR-Melange-Grotesk-SemiLight",
+            "weight": 350,
+            "weightReadable": "Semi Light",
+            "fontStyle": "normal",
+            "fontStretch": "normal"
+          },
+          {
+            "path": "KMR-Melange-Grotesk-Regular",
+            "weight": 400,
+            "weightReadable": "Regular",
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "isEssential": true
+          },
+          {
+            "path": "KMR-Melange-Grotesk-Book",
+            "weight": 430,
+            "weightReadable": "Book",
+            "fontStyle": "normal",
+            "fontStretch": "normal"
+          },
+          {
+            "path": "KMR-Melange-Grotesk-Medium",
+            "weight": 500,
+            "weightReadable": "Medium",
+            "fontStyle": "normal",
+            "fontStretch": "normal"
+          },
+          {
+            "path": "KMR-Melange-Grotesk-SemiBold",
+            "weight": 600,
+            "weightReadable": "SemiBold",
+            "fontStyle": "normal",
+            "fontStretch": "normal"
+          },
+          {
+            "path": "KMR-Melange-Grotesk-Bold",
+            "weight": 700,
+            "weightReadable": "Bold",
+            "fontStyle": "normal",
+            "fontStretch": "normal",
+            "isEssential": true
+          },
+          {
+            "path": "KMR-Melange-Grotesk-ExtraBold",
+            "weight": 800,
+            "weightReadable": "Extra Bold",
+            "fontStyle": "normal",
+            "fontStretch": "normal"
+          },
+          {
+            "path": "KMR-Melange-Grotesk-Black",
+            "weight": 900,
+            "weightReadable": "Black",
+            "fontStyle": "normal",
+            "fontStretch": "normal"
+          },
+          {
+            "path": "KMR-Melange-Grotesk-ExtraBlack",
+            "weight": 950,
+            "weightReadable": "Extra Black",
+            "fontStyle": "normal",
+            "fontStretch": "normal"
+          },
+          {
+            "path": "KMR-Melange-Grotesk-HairlineItalic",
+            "weight": 50,
+            "weightReadable": "Hairline Italic",
+            "fontStyle": "italic",
+            "fontStretch": "normal"
+          },
+          {
+            "path": "KMR-Melange-Grotesk-ThinItalic",
+            "weight": 100,
+            "weightReadable": "Thin Italic",
+            "fontStyle": "italic",
+            "fontStretch": "normal"
+          },
+          {
+            "path": "KMR-Melange-Grotesk-ExtraLightItalic",
+            "weight": 200,
+            "weightReadable": "Extra Light Italic",
+            "fontStyle": "italic",
+            "fontStretch": "normal"
+          },
+          {
+            "path": "KMR-Melange-Grotesk-LightItalic",
+            "weight": 300,
+            "weightReadable": "Light Italic",
+            "fontStyle": "italic",
+            "fontStretch": "normal",
+            "isEssential": true
+          },
+          {
+            "path": "KMR-Melange-Grotesk-SemiLightItalic",
+            "weight": 350,
+            "weightReadable": "Semi Light Italic",
+            "fontStyle": "italic",
+            "fontStretch": "normal"
+          },
+          {
+            "path": "KMR-Melange-Grotesk-Italic",
+            "weight": 400,
+            "weightReadable": "Italic",
+            "fontStyle": "italic",
+            "fontStretch": "normal",
+            "isEssential": true
+          },
+          {
+            "path": "KMR-Melange-Grotesk-BookItalic",
+            "weight": 430,
+            "weightReadable": "Book Italic",
+            "fontStyle": "italic",
+            "fontStretch": "normal"
+          },
+          {
+            "path": "KMR-Melange-Grotesk-MediumItalic",
+            "weight": 500,
+            "weightReadable": "Medium Italic",
+            "fontStyle": "italic",
+            "fontStretch": "normal"
+          },
+          {
+            "path": "KMR-Melange-Grotesk-SemiBoldItalic",
+            "weight": 600,
+            "weightReadable": "Semi Bold Italic",
+            "fontStyle": "italic",
+            "fontStretch": "normal"
+          },
+          {
+            "path": "KMR-Melange-Grotesk-BoldItalic",
+            "weight": 700,
+            "weightReadable": "Bold Italic",
+            "fontStyle": "italic",
+            "fontStretch": "normal",
+            "isEssential": true
+          },
+          {
+            "path": "KMR-Melange-Grotesk-ExtraBoldItalic",
+            "weight": 800,
+            "weightReadable": "Extra Bold Italic",
+            "fontStyle": "italic",
+            "fontStretch": "normal"
+          },
+          {
+            "path": "KMR-Melange-Grotesk-BlackItalic",
+            "weight": 900,
+            "weightReadable": "Black Italic",
+            "fontStyle": "italic",
+            "fontStretch": "normal"
+          },
+          {
+            "path": "KMR-Melange-Grotesk-ExtraBlackItalic",
+            "weight": 950,
+            "weightReadable": "Extra Black Italic",
+            "fontStyle": "italic",
             "fontStretch": "normal"
           }
         ]
