@@ -17,7 +17,7 @@ const Melange = {
     // "Alt a" is the label that will be displayed on the website. "ss01" is the value that is used in the CSS.
     // All openTypeFeatures that are listed here will be usable in the backend, e.g. when creating specific typetester previews.
     MakeOpenTypeFeatures("Alt a", "ss01"),
-    MakeOpenTypeFeatures("Alt i", "ss02"),
+    MakeOpenTypeFeatures("Alt l", "ss02"),
     MakeOpenTypeFeatures("Alt t", "ss03"),
     MakeOpenTypeFeatures("Alt u", "ss04"),
     MakeOpenTypeFeatures("Alt G", "ss05"),
