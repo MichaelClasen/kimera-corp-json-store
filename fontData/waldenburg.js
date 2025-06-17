@@ -124,7 +124,7 @@ const Waldenburg = {
         MakeFontFamily(
           name,
           200,
-          "Light SemiCondensed Italic",
+          "SemiCondensed Light Italic",
           "semi-condensed",
           "italic",
           true
