@@ -141,127 +141,127 @@
     "variable": "/fonts/KMR-Waldenburg/KMR-WaldenburgUprightVF",
     "fontFamilies": [
       {
-        "styleName": "Regular",
-        "styleId": 1,
-        "styleStrech": "regular",
+        "styleName": "Condensed",
+        "styleId": 3,
+        "styleStrech": "condensed",
         "weights": [
           {
-            "path": "KMR-Waldenburg-Thin",
+            "path": "KMR-Waldenburg-CondensedThin",
             "weight": 100,
-            "weightReadable": "Thin",
+            "weightReadable": "Condensed Thin",
             "fontStyle": "regular",
-            "fontStretch": "regular"
+            "fontStretch": "condensed"
           },
           {
-            "path": "KMR-Waldenburg-ThinItalic",
+            "path": "KMR-Waldenburg-CondensedThinItalic",
             "weight": 100,
-            "weightReadable": "Thin Italic",
+            "weightReadable": "Condensed Thin Italic",
             "fontStyle": "italic",
-            "fontStretch": "regular"
+            "fontStretch": "condensed"
           },
           {
-            "path": "KMR-Waldenburg-Light",
+            "path": "KMR-Waldenburg-CondensedLight",
             "weight": 200,
-            "weightReadable": "Light",
+            "weightReadable": "Condensed Light",
             "fontStyle": "regular",
-            "fontStretch": "regular",
+            "fontStretch": "condensed",
             "isEssential": true
           },
           {
-            "path": "KMR-Waldenburg-LightItalic",
+            "path": "KMR-Waldenburg-CondensedLightItalic",
             "weight": 200,
-            "weightReadable": "Light Italic",
+            "weightReadable": "Condensed Light Italic",
             "fontStyle": "italic",
-            "fontStretch": "regular",
+            "fontStretch": "condensed",
             "isEssential": true
           },
           {
-            "path": "KMR-Waldenburg-Book",
+            "path": "KMR-Waldenburg-CondensedBook",
             "weight": 300,
-            "weightReadable": "Book",
+            "weightReadable": "Condensed Book",
             "fontStyle": "regular",
-            "fontStretch": "regular"
+            "fontStretch": "condensed"
           },
           {
-            "path": "KMR-Waldenburg-BookItalic",
+            "path": "KMR-Waldenburg-CondensedBookItalic",
             "weight": 300,
-            "weightReadable": "Book Italic",
+            "weightReadable": "Condensed Book Italic",
             "fontStyle": "italic",
-            "fontStretch": "regular"
+            "fontStretch": "condensed"
           },
           {
-            "path": "KMR-Waldenburg-Regular",
+            "path": "KMR-Waldenburg-Condensed",
             "weight": 400,
-            "weightReadable": "Regular",
+            "weightReadable": "Condensed",
             "fontStyle": "regular",
-            "fontStretch": "regular",
+            "fontStretch": "condensed",
             "isEssential": true
           },
           {
-            "path": "KMR-Waldenburg-Italic",
+            "path": "KMR-Waldenburg-CondensedItalic",
             "weight": 400,
-            "weightReadable": "Italic",
+            "weightReadable": "Condensed Italic",
             "fontStyle": "italic",
-            "fontStretch": "regular",
+            "fontStretch": "condensed",
             "isEssential": true
           },
           {
-            "path": "KMR-Waldenburg-Medium",
+            "path": "KMR-Waldenburg-CondensedMedium",
             "weight": 500,
-            "weightReadable": "Medium",
+            "weightReadable": "Condensed Medium",
             "fontStyle": "regular",
-            "fontStretch": "regular"
+            "fontStretch": "condensed"
           },
           {
-            "path": "KMR-Waldenburg-MediumItalic",
+            "path": "KMR-Waldenburg-CondensedMediumItalic",
             "weight": 500,
-            "weightReadable": "Medium Italic",
+            "weightReadable": "Condensed Medium Italic",
             "fontStyle": "italic",
-            "fontStretch": "regular"
+            "fontStretch": "condensed"
           },
           {
-            "path": "KMR-Waldenburg-Bold",
+            "path": "KMR-Waldenburg-CondensedBold",
             "weight": 600,
-            "weightReadable": "Bold",
+            "weightReadable": "Condensed Bold",
             "fontStyle": "regular",
-            "fontStretch": "regular",
+            "fontStretch": "condensed",
             "isEssential": true
           },
           {
-            "path": "KMR-Waldenburg-BoldItalic",
+            "path": "KMR-Waldenburg-CondensedBoldItalic",
             "weight": 600,
-            "weightReadable": "Bold Italic",
+            "weightReadable": "Condensed Bold Italic",
             "fontStyle": "italic",
-            "fontStretch": "regular",
+            "fontStretch": "condensed",
             "isEssential": true
           },
           {
-            "path": "KMR-Waldenburg-Heavy",
+            "path": "KMR-Waldenburg-CondensedHeavy",
             "weight": 700,
-            "weightReadable": "Heavy",
+            "weightReadable": "Condensed Heavy",
             "fontStyle": "regular",
-            "fontStretch": "regular"
+            "fontStretch": "condensed"
           },
           {
-            "path": "KMR-Waldenburg-HeavyItalic",
+            "path": "KMR-Waldenburg-CondensedHeavyItalic",
             "weight": 700,
-            "weightReadable": "Heavy Italic",
+            "weightReadable": "Condensed Heavy Italic",
             "fontStyle": "italic",
-            "fontStretch": "regular"
+            "fontStretch": "condensed"
           },
           {
-            "path": "KMR-Waldenburg-Black",
+            "path": "KMR-Waldenburg-CondensedBlack",
             "weight": 800,
-            "weightReadable": "Black",
+            "weightReadable": "Condensed Black",
             "fontStyle": "regular",
-            "fontStretch": "regular"
+            "fontStretch": "condensed"
           },
           {
-            "path": "KMR-Waldenburg-BlackItalic",
+            "path": "KMR-Waldenburg-CondensedBlackItalic",
             "weight": 800,
-            "weightReadable": "Black Italic",
+            "weightReadable": "Condensed Black Italic",
             "fontStyle": "italic",
-            "fontStretch": "regular"
+            "fontStretch": "condensed"
           }
         ]
       },
@@ -391,127 +391,127 @@
         ]
       },
       {
-        "styleName": "Condensed",
-        "styleId": 3,
-        "styleStrech": "condensed",
+        "styleName": "Regular",
+        "styleId": 1,
+        "styleStrech": "regular",
         "weights": [
           {
-            "path": "KMR-Waldenburg-CondensedThin",
+            "path": "KMR-Waldenburg-Thin",
             "weight": 100,
-            "weightReadable": "Condensed Thin",
+            "weightReadable": "Thin",
             "fontStyle": "regular",
-            "fontStretch": "condensed"
+            "fontStretch": "regular"
           },
           {
-            "path": "KMR-Waldenburg-CondensedThinItalic",
+            "path": "KMR-Waldenburg-ThinItalic",
             "weight": 100,
-            "weightReadable": "Condensed Thin Italic",
+            "weightReadable": "Thin Italic",
             "fontStyle": "italic",
-            "fontStretch": "condensed"
+            "fontStretch": "regular"
           },
           {
-            "path": "KMR-Waldenburg-CondensedLight",
+            "path": "KMR-Waldenburg-Light",
             "weight": 200,
-            "weightReadable": "Condensed Light",
+            "weightReadable": "Light",
             "fontStyle": "regular",
-            "fontStretch": "condensed",
+            "fontStretch": "regular",
             "isEssential": true
           },
           {
-            "path": "KMR-Waldenburg-CondensedLightItalic",
+            "path": "KMR-Waldenburg-LightItalic",
             "weight": 200,
-            "weightReadable": "Condensed Light Italic",
+            "weightReadable": "Light Italic",
             "fontStyle": "italic",
-            "fontStretch": "condensed",
+            "fontStretch": "regular",
             "isEssential": true
           },
           {
-            "path": "KMR-Waldenburg-CondensedBook",
+            "path": "KMR-Waldenburg-Book",
             "weight": 300,
-            "weightReadable": "Condensed Book",
+            "weightReadable": "Book",
             "fontStyle": "regular",
-            "fontStretch": "condensed"
+            "fontStretch": "regular"
           },
           {
-            "path": "KMR-Waldenburg-CondensedBookItalic",
+            "path": "KMR-Waldenburg-BookItalic",
             "weight": 300,
-            "weightReadable": "Condensed Book Italic",
+            "weightReadable": "Book Italic",
             "fontStyle": "italic",
-            "fontStretch": "condensed"
+            "fontStretch": "regular"
           },
           {
-            "path": "KMR-Waldenburg-Condensed",
+            "path": "KMR-Waldenburg-Regular",
             "weight": 400,
-            "weightReadable": "Condensed",
+            "weightReadable": "Regular",
             "fontStyle": "regular",
-            "fontStretch": "condensed",
+            "fontStretch": "regular",
             "isEssential": true
           },
           {
-            "path": "KMR-Waldenburg-CondensedItalic",
+            "path": "KMR-Waldenburg-Italic",
             "weight": 400,
-            "weightReadable": "Condensed Italic",
+            "weightReadable": "Italic",
             "fontStyle": "italic",
-            "fontStretch": "condensed",
+            "fontStretch": "regular",
             "isEssential": true
           },
           {
-            "path": "KMR-Waldenburg-CondensedMedium",
+            "path": "KMR-Waldenburg-Medium",
             "weight": 500,
-            "weightReadable": "Condensed Medium",
+            "weightReadable": "Medium",
             "fontStyle": "regular",
-            "fontStretch": "condensed"
+            "fontStretch": "regular"
           },
           {
-            "path": "KMR-Waldenburg-CondensedMediumItalic",
+            "path": "KMR-Waldenburg-MediumItalic",
             "weight": 500,
-            "weightReadable": "Condensed Medium Italic",
+            "weightReadable": "Medium Italic",
             "fontStyle": "italic",
-            "fontStretch": "condensed"
+            "fontStretch": "regular"
           },
           {
-            "path": "KMR-Waldenburg-CondensedBold",
+            "path": "KMR-Waldenburg-Bold",
             "weight": 600,
-            "weightReadable": "Condensed Bold",
+            "weightReadable": "Bold",
             "fontStyle": "regular",
-            "fontStretch": "condensed",
+            "fontStretch": "regular",
             "isEssential": true
           },
           {
-            "path": "KMR-Waldenburg-CondensedBoldItalic",
+            "path": "KMR-Waldenburg-BoldItalic",
             "weight": 600,
-            "weightReadable": "Condensed Bold Italic",
+            "weightReadable": "Bold Italic",
             "fontStyle": "italic",
-            "fontStretch": "condensed",
+            "fontStretch": "regular",
             "isEssential": true
           },
           {
-            "path": "KMR-Waldenburg-CondensedHeavy",
+            "path": "KMR-Waldenburg-Heavy",
             "weight": 700,
-            "weightReadable": "Condensed Heavy",
+            "weightReadable": "Heavy",
             "fontStyle": "regular",
-            "fontStretch": "condensed"
+            "fontStretch": "regular"
           },
           {
-            "path": "KMR-Waldenburg-CondensedHeavyItalic",
+            "path": "KMR-Waldenburg-HeavyItalic",
             "weight": 700,
-            "weightReadable": "Condensed Heavy Italic",
+            "weightReadable": "Heavy Italic",
             "fontStyle": "italic",
-            "fontStretch": "condensed"
+            "fontStretch": "regular"
           },
           {
-            "path": "KMR-Waldenburg-CondensedBlack",
+            "path": "KMR-Waldenburg-Black",
             "weight": 800,
-            "weightReadable": "Condensed Black",
+            "weightReadable": "Black",
             "fontStyle": "regular",
-            "fontStretch": "condensed"
+            "fontStretch": "regular"
           },
           {
-            "path": "KMR-Waldenburg-CondensedBlackItalic",
+            "path": "KMR-Waldenburg-BlackItalic",
             "weight": 800,
-            "weightReadable": "Condensed Black Italic",
+            "weightReadable": "Black Italic",
             "fontStyle": "italic",
-            "fontStretch": "condensed"
+            "fontStretch": "regular"
           }
         ]
       },
