@@ -1,4 +1,3 @@
-// import { MakeFontFamily } from 'fontDataHelpers.js'
 const {
   MakeFontFamily,
   MakeOpenTypeFeatures,
@@ -6,10 +5,10 @@ const {
 
 const name = "KMR-Apparat";
 const Apparat = {
+  id: 2,
   name: name,
   nameReadable: "Apparat",
   fontDir: `/fonts/${name}/WEB/WOFF/`,
-  // fontDir: `/fonts/Waldenburg/`,
   openTypeFeatures: [
     MakeOpenTypeFeatures("Access All Alternates", "aalt"),
     MakeOpenTypeFeatures("Contextual Alternates", "calt"),
@@ -32,14 +31,14 @@ const Apparat = {
   variable: `/fonts/${name}/${name}VF`,
   fontFamilies: [
     {
-      styleName: "Normal",
+      styleName: "Regular",
       styleId: 1,
-      styleStrech: "normal",
+      styleStrech: "regular",
       weights: [
-        MakeFontFamily(name, 100, "Light", "normal", "normal", true),
-        MakeFontFamily(name, 200, "Regular", "normal", "normal", true),
+        MakeFontFamily(name, 100, "Light", "regular", "regular", true),
+        MakeFontFamily(name, 200, "Regular", "regular", "regular", true),
         MakeFontFamily(name, 300, "Book"),
-        MakeFontFamily(name, 400, "Medium", "normal", "normal", true),
+        MakeFontFamily(name, 400, "Medium", "regular", "regular", true),
         MakeFontFamily(name, 500, "Bold"),
         MakeFontFamily(name, 600, "Heavy"),
         MakeFontFamily(name, 700, "Black"),
@@ -48,6 +47,4 @@ const Apparat = {
   ],
 };
 
-// console.log(name, Waldenburg);
 module.exports = { Apparat };
-// export default Waldenburg
