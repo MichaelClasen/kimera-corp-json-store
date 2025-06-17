@@ -293,9 +293,9 @@
             "isEssential": true
           },
           {
-            "path": "KMR-Waldenburg-SemiCondensedLightItalic",
+            "path": "KMR-Waldenburg-LightSemiCondensedItalic",
             "weight": 200,
-            "weightReadable": "SemiCondensed Light Italic",
+            "weightReadable": "Light SemiCondensed Italic",
             "fontStyle": "italic",
             "fontStretch": "semi-condensed",
             "isEssential": true
