@@ -5,7 +5,6 @@ const {
 
 const name = "KMR-Waldenburg";
 const Waldenburg = {
-  id: 1,
   name: name,
   nameReadable: "Waldenburg",
   fontDir: `/fonts/${name}/WEB/WOFF/`,
@@ -28,367 +27,177 @@ const Waldenburg = {
     MakeOpenTypeFeatures("Slashed Zero", "zero"),
   ],
   openTypeFeaturesFiltered: ["ss05", "ss04", "ss03", "ss01", "ss02", "case"],
-  variable: `/fonts/${name}/${name}UprightVF`,
+  variable: `/fonts/${name}/${name}VF`,
   fontFamilies: [
     {
-      styleName: "Regular",
+      styleName: "Normal",
       styleId: 1,
-      styleStrech: "regular",
+      styleStrech: "normal",
       weights: [
-        MakeFontFamily(name, 100, "Thin"),
-        MakeFontFamily(name, 100, "Thin Italic", "regular", "italic"),
-        MakeFontFamily(name, 200, "Light", "regular", "regular", true),
-        MakeFontFamily(name, 200, "Light Italic", "regular", "italic", true),
-        MakeFontFamily(name, 300, "Book"),
-        MakeFontFamily(name, 300, "Book Italic", "regular", "italic"),
-        MakeFontFamily(name, 400, "Regular", "regular", "regular", true),
-        MakeFontFamily(name, 400, "Italic", "regular", "italic", true),
-        MakeFontFamily(name, 500, "Medium"),
-        MakeFontFamily(name, 500, "Medium Italic", "regular", "italic"),
-        MakeFontFamily(name, 600, "Bold", "regular", "regular", true),
-        MakeFontFamily(name, 600, "Bold Italic", "regular", "italic", true),
-        MakeFontFamily(name, 700, "Heavy"),
-        MakeFontFamily(name, 700, "Heavy Italic", "regular", "italic"),
-        MakeFontFamily(name, 800, "Black"),
-        MakeFontFamily(name, 800, "Black Italic", "regular", "italic"),
+        MakeFontFamily(name, 100, "Fein"),
+        MakeFontFamily(name, 100, "Fein Kursiv", "normal", "italic"),
+        MakeFontFamily(name, 200, "Mager", "normal", "normal", true),
+        MakeFontFamily(name, 200, "Mager Kursiv", "normal", "italic", true),
+        MakeFontFamily(name, 300, "Buch"),
+        MakeFontFamily(name, 300, "Buch Kursiv", "normal", "italic"),
+        MakeFontFamily(name, 400, "Normal", "normal", "normal", true),
+        MakeFontFamily(name, 400, "Normal Kursiv", "normal", "italic", true),
+        MakeFontFamily(name, 500, "Halbfett"),
+        MakeFontFamily(name, 500, "Halbfett Kursiv", "normal", "italic"),
+        MakeFontFamily(name, 600, "Fett", "normal", "normal", true),
+        MakeFontFamily(name, 600, "Fett Kursiv", "normal", "italic", true),
+        MakeFontFamily(name, 700, "Schwer"),
+        MakeFontFamily(name, 700, "Schwer Kursiv", "normal", "italic"),
+        MakeFontFamily(name, 800, "Schwarz"),
+        MakeFontFamily(name, 800, "Schwarz Kursiv", "normal", "italic"),
       ],
     },
     {
-      styleName: "SemiCondensed",
+      styleName: "Halbschmal",
       styleId: 2,
       styleStrech: "semi-condensed",
       weights: [
-        MakeFontFamily(name, 100, "SemiCondensed Thin", "semi-condensed"),
+        MakeFontFamily(name, 100, "Fein Halbschmal", "semi-condensed"),
         MakeFontFamily(
           name,
           100,
-          "SemiCondensed Thin Italic",
+          "Fein Halbschmal Kursiv",
           "semi-condensed",
           "italic"
         ),
         MakeFontFamily(
           name,
           200,
-          "SemiCondensed Light",
+          "Mager Halbschmal",
           "semi-condensed",
-          "regular",
+          "normal",
           true
         ),
         MakeFontFamily(
           name,
           200,
-          "Light SemiCondensed Italic",
+          "Mager Halbschmal Kursiv",
           "semi-condensed",
           "italic",
           true
         ),
-        MakeFontFamily(name, 300, "SemiCondensed Book", "semi-condensed"),
+        MakeFontFamily(name, 300, "Buch Halbschmal", "semi-condensed"),
         MakeFontFamily(
           name,
           300,
-          "SemiCondensed Book Italic",
+          "Buch Halbschmal Kursiv",
           "semi-condensed",
           "italic"
         ),
         MakeFontFamily(
           name,
           400,
-          "SemiCondensed",
+          "Halbschmal",
           "semi-condensed",
-          "regular",
+          "normal",
           true
         ),
         MakeFontFamily(
           name,
           400,
-          "SemiCondensed Italic",
+          "Halbschmal Kursiv",
           "semi-condensed",
           "italic",
           true
         ),
-        MakeFontFamily(name, 500, "SemiCondensed Medium", "semi-condensed"),
+        MakeFontFamily(name, 500, "Halbfett Halbschmal", "semi-condensed"),
         MakeFontFamily(
           name,
           500,
-          "SemiCondensed Medium Italic",
+          "Halbfett Halbschmal Kursiv",
           "semi-condensed",
           "italic"
         ),
         MakeFontFamily(
           name,
           600,
-          "SemiCondensed Bold",
+          "Fett Halbschmal",
           "semi-condensed",
-          "regular",
+          "normal",
           true
         ),
         MakeFontFamily(
           name,
           600,
-          "SemiCondensed Bold Italic",
+          "Fett Halbschmal Kursiv",
           "semi-condensed",
           "italic",
           true
         ),
-        MakeFontFamily(name, 700, "SemiCondensed Heavy", "semi-condensed"),
+        MakeFontFamily(name, 700, "Schwer Halbschmal", "semi-condensed"),
         MakeFontFamily(
           name,
           700,
-          "SemiCondensed Heavy Italic",
+          "Schwer Halbschmal Kursiv",
           "semi-condensed",
           "italic"
         ),
-        MakeFontFamily(name, 800, "SemiCondensed Black", "semi-condensed"),
+        MakeFontFamily(name, 800, "Schwarz Halbschmal", "semi-condensed"),
         MakeFontFamily(
           name,
           800,
-          "SemiCondensed Black Italic",
+          "Schwarz Halbschmal Kursiv",
           "semi-condensed",
           "italic"
         ),
       ],
     },
     {
-      styleName: "Condensed",
+      styleName: "Schmal",
       styleId: 3,
       styleStrech: "condensed",
       weights: [
-        MakeFontFamily(name, 100, "Condensed Thin", "condensed"),
-        MakeFontFamily(name, 100, "Condensed Thin Italic", "condensed", "italic"),
-        MakeFontFamily(name, 200, "Condensed Light", "condensed", "regular", true),
+        MakeFontFamily(name, 100, "Fein Schmal", "condensed"),
+        MakeFontFamily(name, 100, "Fein Schmal Kursiv", "condensed", "italic"),
+        MakeFontFamily(name, 200, "Mager Schmal", "condensed", "normal", true),
         MakeFontFamily(
           name,
           200,
-          "Condensed Light Italic",
+          "Mager Schmal Kursiv",
           "condensed",
           "italic",
           true
         ),
-        MakeFontFamily(name, 300, "Condensed Book", "condensed"),
-        MakeFontFamily(name, 300, "Condensed Book Italic", "condensed", "italic"),
-        MakeFontFamily(name, 400, "Condensed", "condensed", "regular", true),
-        MakeFontFamily(name, 400, "Condensed Italic", "condensed", "italic", true),
-        MakeFontFamily(name, 500, "Condensed Medium", "condensed"),
+        MakeFontFamily(name, 300, "Buch Schmal", "condensed"),
+        MakeFontFamily(name, 300, "Buch Schmal Kursiv", "condensed", "italic"),
+        MakeFontFamily(name, 400, "Schmal", "condensed", "normal", true),
+        MakeFontFamily(name, 400, "Schmal Kursiv", "condensed", "italic", true),
+        MakeFontFamily(name, 500, "Halbfett Schmal", "condensed"),
         MakeFontFamily(
           name,
           500,
-          "Condensed Medium Italic",
+          "Halbfett Schmal Kursiv",
           "condensed",
           "italic"
         ),
-        MakeFontFamily(name, 600, "Condensed Bold", "condensed", "regular", true),
+        MakeFontFamily(name, 600, "Fett Schmal", "condensed", "normal", true),
         MakeFontFamily(
           name,
           600,
-          "Condensed Bold Italic",
+          "Fett Schmal Kursiv",
           "condensed",
           "italic",
           true
         ),
-        MakeFontFamily(name, 700, "Condensed Heavy", "condensed"),
+        MakeFontFamily(name, 700, "Schwer Schmal", "condensed"),
         MakeFontFamily(
           name,
           700,
-          "Condensed Heavy Italic",
+          "Schwer Schmal Kursiv",
           "condensed",
           "italic"
         ),
-        MakeFontFamily(name, 800, "Condensed Black", "condensed"),
+        MakeFontFamily(name, 800, "Schwarz Schmal", "condensed"),
         MakeFontFamily(
           name,
           800,
-          "Condensed Black Italic",
+          "Schwarz Schmal Kursiv",
           "condensed",
-          "italic"
-        ),
-      ],
-    },
-    {
-      styleName: "SemiExtended",
-      styleId: 4,
-      styleStrech: "semi-extended",
-      weights: [
-        MakeFontFamily(name, 100, "SemiExtended Thin", "semi-extended"),
-        MakeFontFamily(
-          name,
-          100,
-          "SemiExtended Thin Italic",
-          "semi-extended",
-          "italic"
-        ),
-        MakeFontFamily(
-          name,
-          200,
-          "SemiExtended Light",
-          "semi-extended",
-          "regular",
-          true
-        ),
-        MakeFontFamily(
-          name,
-          200,
-          "SemiExtended Light Italic",
-          "semi-extended",
-          "italic",
-          true
-        ),
-        MakeFontFamily(name, 300, "SemiExtended Book", "semi-extended"),
-        MakeFontFamily(
-          name,
-          300,
-          "SemiExtended Book Italic",
-          "semi-extended",
-          "italic"
-        ),
-        MakeFontFamily(
-          name,
-          400,
-          "SemiExtended",
-          "semi-extended",
-          "regular",
-          true
-        ),
-        MakeFontFamily(
-          name,
-          400,
-          "SemiExtended Italic",
-          "semi-extended",
-          "italic",
-          true
-        ),
-        MakeFontFamily(name, 500, "SemiExtended Medium", "semi-extended"),
-        MakeFontFamily(
-          name,
-          500,
-          "SemiExtended Medium Italic",
-          "semi-extended",
-          "italic"
-        ),
-        MakeFontFamily(
-          name,
-          600,
-          "SemiExtended Bold",
-          "semi-extended",
-          "regular",
-          true
-        ),
-        MakeFontFamily(
-          name,
-          600,
-          "SemiExtended Bold Italic",
-          "semi-extended",
-          "italic",
-          true
-        ),
-        MakeFontFamily(name, 700, "SemiExtended Heavy", "semi-extended"),
-        MakeFontFamily(
-          name,
-          700,
-          "SemiExtended Heavy Italic",
-          "semi-extended",
-          "italic"
-        ),
-        MakeFontFamily(name, 800, "SemiExtended Black", "semi-extended"),
-        MakeFontFamily(
-          name,
-          800,
-          "SemiExtended Black Italic",
-          "semi-extended",
-          "italic"
-        ),
-      ],
-    },
-    {
-      styleName: "Extended",
-      styleId: 5,
-      styleStrech: "extended",
-      weights: [
-        MakeFontFamily(name, 100, "Extended Thin", "extended"),
-        MakeFontFamily(
-          name,
-          100,
-          "Extended Thin Italic",
-          "extended",
-          "italic"
-        ),
-        MakeFontFamily(
-          name,
-          200,
-          "Extended Light",
-          "extended",
-          "regular",
-          true
-        ),
-        MakeFontFamily(
-          name,
-          200,
-          "Extended Light Italic",
-          "extended",
-          "italic",
-          true
-        ),
-        MakeFontFamily(name, 300, "Extended Book", "extended"),
-        MakeFontFamily(
-          name,
-          300,
-          "Extended Book Italic",
-          "extended",
-          "italic"
-        ),
-        MakeFontFamily(
-          name,
-          400,
-          "Extended",
-          "extended",
-          "regular",
-          true
-        ),
-        MakeFontFamily(
-          name,
-          400,
-          "Extended Italic",
-          "extended",
-          "italic",
-          true
-        ),
-        MakeFontFamily(name, 500, "Extended Medium", "extended"),
-        MakeFontFamily(
-          name,
-          500,
-          "Extended Medium Italic",
-          "extended",
-          "italic"
-        ),
-        MakeFontFamily(
-          name,
-          600,
-          "Extended Bold",
-          "extended",
-          "regular",
-          true
-        ),
-        MakeFontFamily(
-          name,
-          600,
-          "Extended Bold Italic",
-          "extended",
-          "italic",
-          true
-        ),
-        MakeFontFamily(name, 700, "Extended Heavy", "extended"),
-        MakeFontFamily(
-          name,
-          700,
-          "Extended Heavy Italic",
-          "extended",
-          "italic"
-        ),
-        MakeFontFamily(name, 800, "Extended Black", "extended"),
-        MakeFontFamily(
-          name,
-          800,
-          "Extended Black Italic",
-          "extended",
           "italic"
         ),
       ],
