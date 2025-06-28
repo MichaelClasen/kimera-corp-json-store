@@ -7,6 +7,7 @@ const {
 // The name of the font family. This is the name of the folder where the font files are located and should be hyphenated.
 const name = "KMR-Melange-Grotesk";
 const Melange = {
+  id: 3,
   name: name,
   // The name of the font family that is displayed on the website, e.g. in the typetester on the top left dropdown.
   nameReadable: "Melange",
@@ -50,7 +51,7 @@ const Melange = {
     {
       // The distinction between StyleName, StyleId and StyleStretch is necessary for the shop,
       // as its needed to calculate the correct price, bundles etc. See Waldenburg for an example.
-      styleName: "Normal",
+      styleName: "Regular",
       styleId: 1,
       styleStrech: "normal",
       weights: [
@@ -62,12 +63,16 @@ const Melange = {
         // readableWeight   The readable weight of the font family.
         //                  Used in the frontend, e.g. in the typetester dropdown.
         //                  IMPORTANT: The naming here is used as a path. So the actual font files should be named accordingly.
-        //                  E.g. KMR-Melange-Grotesk-ExtraBlackItalic. Spaces will be replaced by no space.
+        //                    E.g. KMR-Melange-Grotesk-ExtraBlackItalic. Spaces will be replaced by no space.
         // fontStretch      The font stretch of the font family.
-        //                  E.g. "condensed" or "semi-condensed". Default is "normal".
+        //                    E.g. "condensed" or "semi-condensed". Default is "normal".
         // fontStyle        The font style of the font family.
-        //                  E.g "italic". Default is "normal".
+        //                    E.g "italic". Default is "normal".
         // isEssential      Indicates if the font family is essential, as used in the shop. Default is false.
+        // styleName        The style name of the font family. This is used to distinguish between different styles of the same font family.
+        // styleId          The style id of the font family. This is used to distinguish between different styles of the same font family.
+        // styleStrech      The style stretch of the font family. This is used to distinguish between different styles of the same font family.
+        //                    E.g. "normal", "condensed", "semi-condensed", etc
 
         MakeFontFamily(name, 50, "Hairline", "normal", "normal"),
         MakeFontFamily(name, 50, "Hairline Italic", "normal", "italic"),
