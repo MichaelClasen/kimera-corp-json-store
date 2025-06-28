@@ -8,8 +8,8 @@ const MakePath = function (path) {
  * @param {string} name - The name of the font family.
  * @param {number} weight - The weight of the font family.
  * @param {string} readableWeight - The readable weight of the font family.
- * @param {string} [fontStretch="regular"] - The font stretch of the font family. Default is "regular".
- * @param {string} [fontStyle="regular"] - The font style of the font family. Default is "regular".
+ * @param {string} [fontStretch="normal"] - The font stretch of the font family. Default is "normal".
+ * @param {string} [fontStyle="normal"] - The font style of the font family. Default is "normal".
  * @param {boolean} [isEssential=false] - Indicates if the font family is essential. Default is false.
  * @returns {object} The font family object.
  */
@@ -17,8 +17,8 @@ const MakeFontFamily = function (
   name,
   weight,
   readableWeight,
-  fontStretch = "regular",
-  fontStyle = "regular",
+  fontStretch = "normal",
+  fontStyle = "normal",
   isEssential = false
 ) {
   return {

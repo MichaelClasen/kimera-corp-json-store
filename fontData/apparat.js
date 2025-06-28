@@ -33,12 +33,12 @@ const Apparat = {
     {
       styleName: "Regular",
       styleId: 1,
-      styleStrech: "regular",
+      styleStrech: "normal",
       weights: [
-        MakeFontFamily(name, 100, "Light", "regular", "regular", true),
-        MakeFontFamily(name, 200, "Regular", "regular", "regular", true),
+        MakeFontFamily(name, 100, "Light", "normal", "normal", true),
+        MakeFontFamily(name, 200, "Regular", "normal", "normal", true),
         MakeFontFamily(name, 300, "Book"),
-        MakeFontFamily(name, 400, "Medium", "regular", "regular", true),
+        MakeFontFamily(name, 400, "Medium", "normal", "normal", true),
         MakeFontFamily(name, 500, "Bold"),
         MakeFontFamily(name, 600, "Heavy"),
         MakeFontFamily(name, 700, "Black"),

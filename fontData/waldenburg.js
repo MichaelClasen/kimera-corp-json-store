@@ -52,7 +52,7 @@ const Waldenburg = {
       weights: [
         MakeFontFamily(name, 100, "Condensed Thin", "condensed"),
         MakeFontFamily(name, 100, "Condensed Thin Italic", "condensed", "italic"),
-        MakeFontFamily(name, 200, "Condensed Light", "condensed", "regular", true),
+        MakeFontFamily(name, 200, "Condensed Light", "condensed", "normal", true),
         MakeFontFamily(
           name,
           200,
@@ -63,7 +63,7 @@ const Waldenburg = {
         ),
         MakeFontFamily(name, 300, "Condensed Book", "condensed"),
         MakeFontFamily(name, 300, "Condensed Book Italic", "condensed", "italic"),
-        MakeFontFamily(name, 400, "Condensed", "condensed", "regular", true),
+        MakeFontFamily(name, 400, "Condensed", "condensed", "normal", true),
         MakeFontFamily(name, 400, "Condensed Italic", "condensed", "italic", true),
         MakeFontFamily(name, 500, "Condensed Medium", "condensed"),
         MakeFontFamily(
@@ -73,7 +73,7 @@ const Waldenburg = {
           "condensed",
           "italic"
         ),
-        MakeFontFamily(name, 600, "Condensed Bold", "condensed", "regular", true),
+        MakeFontFamily(name, 600, "Condensed Bold", "condensed", "normal", true),
         MakeFontFamily(
           name,
           600,
@@ -118,7 +118,7 @@ const Waldenburg = {
           200,
           "SemiCondensed Light",
           "semi-condensed",
-          "regular",
+          "normal",
           true
         ),
         MakeFontFamily(
@@ -142,7 +142,7 @@ const Waldenburg = {
           400,
           "SemiCondensed",
           "semi-condensed",
-          "regular",
+          "normal",
           true
         ),
         MakeFontFamily(
@@ -166,7 +166,7 @@ const Waldenburg = {
           600,
           "SemiCondensed Bold",
           "semi-condensed",
-          "regular",
+          "normal",
           true
         ),
         MakeFontFamily(
@@ -198,24 +198,24 @@ const Waldenburg = {
     {
       styleName: "Regular",
       styleId: 1,
-      styleStrech: "regular",
+      styleStrech: "normal",
       weights: [
         MakeFontFamily(name, 100, "Thin"),
-        MakeFontFamily(name, 100, "Thin Italic", "regular", "italic"),
-        MakeFontFamily(name, 200, "Light", "regular", "regular", true),
-        MakeFontFamily(name, 200, "Light Italic", "regular", "italic", true),
+        MakeFontFamily(name, 100, "Thin Italic", "normal", "italic"),
+        MakeFontFamily(name, 200, "Light", "normal", "normal", true),
+        MakeFontFamily(name, 200, "Light Italic", "normal", "italic", true),
         MakeFontFamily(name, 300, "Book"),
-        MakeFontFamily(name, 300, "Book Italic", "regular", "italic"),
-        MakeFontFamily(name, 400, "Regular", "regular", "regular", true),
-        MakeFontFamily(name, 400, "Italic", "regular", "italic", true),
+        MakeFontFamily(name, 300, "Book Italic", "normal", "italic"),
+        MakeFontFamily(name, 400, "Regular", "normal", "normal", true),
+        MakeFontFamily(name, 400, "Italic", "normal", "italic", true),
         MakeFontFamily(name, 500, "Medium"),
-        MakeFontFamily(name, 500, "Medium Italic", "regular", "italic"),
-        MakeFontFamily(name, 600, "Bold", "regular", "regular", true),
-        MakeFontFamily(name, 600, "Bold Italic", "regular", "italic", true),
+        MakeFontFamily(name, 500, "Medium Italic", "normal", "italic"),
+        MakeFontFamily(name, 600, "Bold", "normal", "normal", true),
+        MakeFontFamily(name, 600, "Bold Italic", "normal", "italic", true),
         MakeFontFamily(name, 700, "Heavy"),
-        MakeFontFamily(name, 700, "Heavy Italic", "regular", "italic"),
+        MakeFontFamily(name, 700, "Heavy Italic", "normal", "italic"),
         MakeFontFamily(name, 800, "Black"),
-        MakeFontFamily(name, 800, "Black Italic", "regular", "italic"),
+        MakeFontFamily(name, 800, "Black Italic", "normal", "italic"),
       ],
     },
     {
@@ -236,7 +236,7 @@ const Waldenburg = {
           200,
           "SemiExtended Light",
           "semi-extended",
-          "regular",
+          "normal",
           true
         ),
         MakeFontFamily(
@@ -260,7 +260,7 @@ const Waldenburg = {
           400,
           "SemiExtended",
           "semi-extended",
-          "regular",
+          "normal",
           true
         ),
         MakeFontFamily(
@@ -284,7 +284,7 @@ const Waldenburg = {
           600,
           "SemiExtended Bold",
           "semi-extended",
-          "regular",
+          "normal",
           true
         ),
         MakeFontFamily(
@@ -331,7 +331,7 @@ const Waldenburg = {
           200,
           "Extended Light",
           "extended",
-          "regular",
+          "normal",
           true
         ),
         MakeFontFamily(
@@ -355,7 +355,7 @@ const Waldenburg = {
           400,
           "Extended",
           "extended",
-          "regular",
+          "normal",
           true
         ),
         MakeFontFamily(
@@ -379,7 +379,7 @@ const Waldenburg = {
           600,
           "Extended Bold",
           "extended",
-          "regular",
+          "normal",
           true
         ),
         MakeFontFamily(

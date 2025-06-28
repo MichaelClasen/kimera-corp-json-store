@@ -53,7 +53,7 @@ const Melange = {
       // as its needed to calculate the correct price, bundles etc. See Waldenburg for an example.
       styleName: "Regular",
       styleId: 1,
-      styleStrech: "regular",
+      styleStrech: "normal",
       weights: [
         // The MakeFontFamily function creates a font family object.
         // The parameters are as follows:
@@ -63,39 +63,43 @@ const Melange = {
         // readableWeight   The readable weight of the font family.
         //                  Used in the frontend, e.g. in the typetester dropdown.
         //                  IMPORTANT: The naming here is used as a path. So the actual font files should be named accordingly.
-        //                  E.g. KMR-Melange-Grotesk-ExtraBlackItalic. Spaces will be replaced by no space.
+        //                    E.g. KMR-Melange-Grotesk-ExtraBlackItalic. Spaces will be replaced by no space.
         // fontStretch      The font stretch of the font family.
-        //                  E.g. "condensed" or "semi-condensed". Default is "regular".
+        //                    E.g. "condensed" or "semi-condensed". Default is "normal".
         // fontStyle        The font style of the font family.
-        //                  E.g "italic". Default is "regular".
+        //                    E.g "italic". Default is "normal".
         // isEssential      Indicates if the font family is essential, as used in the shop. Default is false.
+        // styleName        The style name of the font family. This is used to distinguish between different styles of the same font family.
+        // styleId          The style id of the font family. This is used to distinguish between different styles of the same font family.
+        // styleStrech      The style stretch of the font family. This is used to distinguish between different styles of the same font family.
+        //                    E.g. "normal", "condensed", "semi-condensed", etc
 
-        MakeFontFamily(name, 50, "Hairline", "regular", "regular"),
-        MakeFontFamily(name, 50, "Hairline Italic", "regular", "italic"),
-        MakeFontFamily(name, 100, "Thin", "regular", "regular"),
-        MakeFontFamily(name, 100, "Thin Italic", "regular", "italic"),
-        MakeFontFamily(name, 200, "Extra Light", "regular", "regular"),
-        MakeFontFamily(name, 200, "Extra Light Italic", "regular", "italic"),
-        MakeFontFamily(name, 300, "Light", "regular", "regular", true),
-        MakeFontFamily(name, 300, "Light Italic", "regular", "italic", true),
-        MakeFontFamily(name, 350, "Semi Light", "regular", "regular"),
-        MakeFontFamily(name, 350, "Semi Light Italic", "regular", "italic"),
-        MakeFontFamily(name, 400, "Regular", "regular", "regular", true),
-        MakeFontFamily(name, 400, "Italic", "regular", "italic", true),
-        MakeFontFamily(name, 430, "Book", "regular", "regular"),
-        MakeFontFamily(name, 430, "Book Italic", "regular", "italic"),
-        MakeFontFamily(name, 500, "Medium", "regular", "regular"),
-        MakeFontFamily(name, 500, "Medium Italic", "regular", "italic"),
-        MakeFontFamily(name, 600, "Semi Bold", "regular", "regular"),
-        MakeFontFamily(name, 600, "Semi Bold Italic", "regular", "italic"),
-        MakeFontFamily(name, 700, "Bold", "regular", "regular", true),
-        MakeFontFamily(name, 700, "Bold Italic", "regular", "italic", true),
-        MakeFontFamily(name, 800, "Extra Bold", "regular", "regular"),
-        MakeFontFamily(name, 800, "Extra Bold Italic", "regular", "italic"),
-        MakeFontFamily(name, 900, "Black", "regular", "regular"),
-        MakeFontFamily(name, 900, "Black Italic", "regular", "italic"),
-        MakeFontFamily(name, 950, "Extra Black", "regular", "regular"),
-        MakeFontFamily(name, 950, "Extra Black Italic", "regular", "italic"),
+        MakeFontFamily(name, 50, "Hairline", "normal", "normal"),
+        MakeFontFamily(name, 50, "Hairline Italic", "normal", "italic"),
+        MakeFontFamily(name, 100, "Thin", "normal", "normal"),
+        MakeFontFamily(name, 100, "Thin Italic", "normal", "italic"),
+        MakeFontFamily(name, 200, "Extra Light", "normal", "normal"),
+        MakeFontFamily(name, 200, "Extra Light Italic", "normal", "italic"),
+        MakeFontFamily(name, 300, "Light", "normal", "normal", true),
+        MakeFontFamily(name, 300, "Light Italic", "normal", "italic", true),
+        MakeFontFamily(name, 350, "Semi Light", "normal", "normal"),
+        MakeFontFamily(name, 350, "Semi Light Italic", "normal", "italic"),
+        MakeFontFamily(name, 400, "Regular", "normal", "normal", true),
+        MakeFontFamily(name, 400, "Italic", "normal", "italic", true),
+        MakeFontFamily(name, 430, "Book", "normal", "normal"),
+        MakeFontFamily(name, 430, "Book Italic", "normal", "italic"),
+        MakeFontFamily(name, 500, "Medium", "normal", "normal"),
+        MakeFontFamily(name, 500, "Medium Italic", "normal", "italic"),
+        MakeFontFamily(name, 600, "Semi Bold", "normal", "normal"),
+        MakeFontFamily(name, 600, "Semi Bold Italic", "normal", "italic"),
+        MakeFontFamily(name, 700, "Bold", "normal", "normal", true),
+        MakeFontFamily(name, 700, "Bold Italic", "normal", "italic", true),
+        MakeFontFamily(name, 800, "Extra Bold", "normal", "normal"),
+        MakeFontFamily(name, 800, "Extra Bold Italic", "normal", "italic"),
+        MakeFontFamily(name, 900, "Black", "normal", "normal"),
+        MakeFontFamily(name, 900, "Black Italic", "normal", "italic"),
+        MakeFontFamily(name, 950, "Extra Black", "normal", "normal"),
+        MakeFontFamily(name, 950, "Extra Black Italic", "normal", "italic"),
       ],
     },
   ],
