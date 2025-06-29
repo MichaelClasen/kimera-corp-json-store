@@ -64,15 +64,16 @@ const Melange = {
         //                  Used in the frontend, e.g. in the typetester dropdown.
         //                  IMPORTANT: The naming here is used as a path. So the actual font files should be named accordingly.
         //                    E.g. KMR-Melange-Grotesk-ExtraBlackItalic. Spaces will be replaced by no space.
-        // fontStretch      The font stretch of the font family.
-        //                    E.g. "condensed" or "semi-condensed". Default is "normal".
+        // fontStretch      The font stretch of the font family. Based on the CSS font-stretch property. 
+        //                    https://developer.mozilla.org/en-US/docs/Web/CSS/font-stretch
+        //                    E.g. "condensed", "semi-condensed", "expanded", "semi-expanded". Default is "normal".
         // fontStyle        The font style of the font family.
         //                    E.g "italic". Default is "normal".
         // isEssential      Indicates if the font family is essential, as used in the shop. Default is false.
         // styleName        The style name of the font family. This is used to distinguish between different styles of the same font family.
         // styleId          The style id of the font family. This is used to distinguish between different styles of the same font family.
         // styleStrech      The style stretch of the font family. This is used to distinguish between different styles of the same font family.
-        //                    E.g. "normal", "condensed", "semi-condensed", etc
+        //                    E.g. "normal", "condensed", "semi-condensed", etc. based on the CSS font-stretch property.
 
         MakeFontFamily(name, 50, "Hairline", "normal", "normal"),
         MakeFontFamily(name, 50, "Hairline Italic", "normal", "italic"),
