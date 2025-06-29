@@ -42,7 +42,7 @@ const Waldenburg = {
     MakeOpenTypeFeatures("Scientific Inferiors", "sinf"),
     MakeOpenTypeFeatures("Slashed Zero", "zero"),
   ],
-  openTypeFeaturesFiltered: ["ss04", "ss02", "ss05", "ss06", "ss07", "case"],
+  openTypeFeaturesFiltered: ["ss01", "ss03", "ss04", "ss02", "ss05", "ss06", "ss07", "case"],
   variable: `/fonts/${name}/${name}UprightVF`,
   fontFamilies: [
     {
@@ -221,21 +221,21 @@ const Waldenburg = {
     {
       styleName: "SemiExtended",
       styleId: 4,
-      styleStrech: "semi-extended",
+      styleStrech: "semi-expanded",
       weights: [
-        MakeFontFamily(name, 100, "SemiExtended Thin", "semi-extended"),
+        MakeFontFamily(name, 100, "SemiExtended Thin", "semi-expanded"),
         MakeFontFamily(
           name,
           100,
           "SemiExtended Thin Italic",
-          "semi-extended",
+          "semi-expanded",
           "italic"
         ),
         MakeFontFamily(
           name,
           200,
           "SemiExtended Light",
-          "semi-extended",
+          "semi-expanded",
           "normal",
           true
         ),
@@ -243,23 +243,23 @@ const Waldenburg = {
           name,
           200,
           "SemiExtended Light Italic",
-          "semi-extended",
+          "semi-expanded",
           "italic",
           true
         ),
-        MakeFontFamily(name, 300, "SemiExtended Book", "semi-extended"),
+        MakeFontFamily(name, 300, "SemiExtended Book", "semi-expanded"),
         MakeFontFamily(
           name,
           300,
           "SemiExtended Book Italic",
-          "semi-extended",
+          "semi-expanded",
           "italic"
         ),
         MakeFontFamily(
           name,
           400,
           "SemiExtended",
-          "semi-extended",
+          "semi-expanded",
           "normal",
           true
         ),
@@ -267,23 +267,23 @@ const Waldenburg = {
           name,
           400,
           "SemiExtended Italic",
-          "semi-extended",
+          "semi-expanded",
           "italic",
           true
         ),
-        MakeFontFamily(name, 500, "SemiExtended Medium", "semi-extended"),
+        MakeFontFamily(name, 500, "SemiExtended Medium", "semi-expanded"),
         MakeFontFamily(
           name,
           500,
           "SemiExtended Medium Italic",
-          "semi-extended",
+          "semi-expanded",
           "italic"
         ),
         MakeFontFamily(
           name,
           600,
           "SemiExtended Bold",
-          "semi-extended",
+          "semi-expanded",
           "normal",
           true
         ),
@@ -291,24 +291,24 @@ const Waldenburg = {
           name,
           600,
           "SemiExtended Bold Italic",
-          "semi-extended",
+          "semi-expanded",
           "italic",
           true
         ),
-        MakeFontFamily(name, 700, "SemiExtended Heavy", "semi-extended"),
+        MakeFontFamily(name, 700, "SemiExtended Heavy", "semi-expanded"),
         MakeFontFamily(
           name,
           700,
           "SemiExtended Heavy Italic",
-          "semi-extended",
+          "semi-expanded",
           "italic"
         ),
-        MakeFontFamily(name, 800, "SemiExtended Black", "semi-extended"),
+        MakeFontFamily(name, 800, "SemiExtended Black", "semi-expanded"),
         MakeFontFamily(
           name,
           800,
           "SemiExtended Black Italic",
-          "semi-extended",
+          "semi-expanded",
           "italic"
         ),
       ],
@@ -316,21 +316,21 @@ const Waldenburg = {
     {
       styleName: "Extended",
       styleId: 5,
-      styleStrech: "extended",
+      styleStrech: "expanded",
       weights: [
-        MakeFontFamily(name, 100, "Extended Thin", "extended"),
+        MakeFontFamily(name, 100, "Extended Thin", "expanded"),
         MakeFontFamily(
           name,
           100,
           "Extended Thin Italic",
-          "extended",
+          "expanded",
           "italic"
         ),
         MakeFontFamily(
           name,
           200,
           "Extended Light",
-          "extended",
+          "expanded",
           "normal",
           true
         ),
@@ -338,23 +338,23 @@ const Waldenburg = {
           name,
           200,
           "Extended Light Italic",
-          "extended",
+          "expanded",
           "italic",
           true
         ),
-        MakeFontFamily(name, 300, "Extended Book", "extended"),
+        MakeFontFamily(name, 300, "Extended Book", "expanded"),
         MakeFontFamily(
           name,
           300,
           "Extended Book Italic",
-          "extended",
+          "expanded",
           "italic"
         ),
         MakeFontFamily(
           name,
           400,
           "Extended",
-          "extended",
+          "expanded",
           "normal",
           true
         ),
@@ -362,23 +362,23 @@ const Waldenburg = {
           name,
           400,
           "Extended Italic",
-          "extended",
+          "expanded",
           "italic",
           true
         ),
-        MakeFontFamily(name, 500, "Extended Medium", "extended"),
+        MakeFontFamily(name, 500, "Extended Medium", "expanded"),
         MakeFontFamily(
           name,
           500,
           "Extended Medium Italic",
-          "extended",
+          "expanded",
           "italic"
         ),
         MakeFontFamily(
           name,
           600,
           "Extended Bold",
-          "extended",
+          "expanded",
           "normal",
           true
         ),
@@ -386,24 +386,24 @@ const Waldenburg = {
           name,
           600,
           "Extended Bold Italic",
-          "extended",
+          "expanded",
           "italic",
           true
         ),
-        MakeFontFamily(name, 700, "Extended Heavy", "extended"),
+        MakeFontFamily(name, 700, "Extended Heavy", "expanded"),
         MakeFontFamily(
           name,
           700,
           "Extended Heavy Italic",
-          "extended",
+          "expanded",
           "italic"
         ),
-        MakeFontFamily(name, 800, "Extended Black", "extended"),
+        MakeFontFamily(name, 800, "Extended Black", "expanded"),
         MakeFontFamily(
           name,
           800,
           "Extended Black Italic",
-          "extended",
+          "expanded",
           "italic"
         ),
       ],
