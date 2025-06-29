@@ -131,6 +131,8 @@
       }
     ],
     "openTypeFeaturesFiltered": [
+      "ss01",
+      "ss03",
       "ss04",
       "ss02",
       "ss05",

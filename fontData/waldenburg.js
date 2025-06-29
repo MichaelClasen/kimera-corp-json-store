@@ -42,7 +42,7 @@ const Waldenburg = {
     MakeOpenTypeFeatures("Scientific Inferiors", "sinf"),
     MakeOpenTypeFeatures("Slashed Zero", "zero"),
   ],
-  openTypeFeaturesFiltered: ["ss04", "ss02", "ss05", "ss06", "ss07", "case"],
+  openTypeFeaturesFiltered: ["ss01", "ss03", "ss04", "ss02", "ss05", "ss06", "ss07", "case"],
   variable: `/fonts/${name}/${name}UprightVF`,
   fontFamilies: [
     {
